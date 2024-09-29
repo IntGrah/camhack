@@ -1,14 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #333333;
     padding: 0;
-    background-color: #5bca64; /* Development only */
+    background-color: #5bca64;
+    /* Development only */
 }
 
 * {
     margin: 0
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 1rem;
 }

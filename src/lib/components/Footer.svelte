@@ -4,15 +4,9 @@
 
 <footer class="container">
     <Margin>
-        <div class="sections">
-            <div class="first">
-                <h3>First</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="second">
-                <h3>Second</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+        <div class="stuff">
+            <h3>Stuff</h3>
+            Email, credits, et cetera
         </div>
 
         <p class="copyright">ⓒ Cam Hack 2024</p>
@@ -25,17 +19,8 @@
         padding: 2rem;
     }
 
-    div.sections {
-        display: flex;
-        justify-content: space-between;
-        gap: 2rem;
+    div.stuff {
         margin-bottom: 2rem;
-    }
-
-    @media (max-width: 600px) {
-        div.sections {
-            flex-direction: column;
-        }
     }
 
     p.copyright {

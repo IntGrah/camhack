@@ -2,20 +2,20 @@
     import FAQuestion from "$lib/components/FAQuestion.svelte";
     import Footer from "$lib/components/Footer.svelte";
     import Margin from "$lib/components/Margin.svelte";
-    import Navigation from "$lib/components/Navigation.svelte";
+    import Header from "$lib/components/Header.svelte";
     import Organisers from "$lib/components/Organisers.svelte";
     import Sponsors from "$lib/components/Sponsors.svelte";
     import Welcome from "$lib/components/Welcome.svelte";
 </script>
 
-<Navigation />
+<Header />
 
 <div id="home"></div>
 <!-- For navigation via /#home -->
 <Welcome />
 
 <main>
-    <div class="section">
+    <div id="sponsors" class="section">
         <Margin>
             <Sponsors />
         </Margin>

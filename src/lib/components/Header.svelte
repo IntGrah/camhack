@@ -1,11 +1,11 @@
-<script>
+<script lang="ts">
     import Margin from "./Margin.svelte";
 </script>
 
 <header class="container">
     <Margin>
         <div class="navigation">
-            <div class="left"></div>
+            <div class="left">Logo</div>
             <div class="right">
                 <nav>
                     <a href="#home">Home</a>
