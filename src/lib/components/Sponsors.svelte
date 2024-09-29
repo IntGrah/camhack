@@ -1,6 +1,8 @@
 <script>
     import CUCaTS from "$lib/assets/cucats-logo-gradient-full.png";
     import JaneStreet from "$lib/assets/jane-street-logo.png";
+    import HudsonRiverTrading from "$lib/assets/hudson-river-trading-logo.png";
+    import EntepreneurFirst from "$lib/assets/entepreneur-first-logo-orange.png";
 </script>
 
 <div class="container">
