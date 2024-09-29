@@ -6,6 +6,7 @@
     import Organisers from "$lib/components/Organisers.svelte";
     import Sponsors from "$lib/components/Sponsors.svelte";
     import Welcome from "$lib/components/Welcome.svelte";
+    import Schedule from "$lib/components/Schedule.svelte";
 </script>
 
 <Header />
@@ -36,12 +37,7 @@
     <div id="schedule" class="section">
         <Margin>
             <h2>Schedule</h2>
-            <p>
-                Schedule TBD. Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Doloremque modi, corporis id molestiae nemo
-                exercitationem architecto aliquid hic maiores, consequatur alias
-                totam, debitis impedit quidem ab dignissimos voluptates at quia!
-            </p>
+            <Schedule />
         </Margin>
     </div>
 

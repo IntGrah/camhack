@@ -18,11 +18,7 @@
         display: flex;
     }
 
-    div.left {
-        flex: 1;
-    }
-
-    div.right {
+    div.left, div.right {
         flex: 1;
     }
 
