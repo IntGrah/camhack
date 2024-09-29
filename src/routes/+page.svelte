@@ -136,6 +136,10 @@
         font-size: 2rem;
     }
 
+    h3 {
+        font-size: 1.5rem;
+    }
+
     li {
         margin-bottom: 1rem;
     }

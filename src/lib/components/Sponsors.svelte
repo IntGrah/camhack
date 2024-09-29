@@ -4,25 +4,33 @@
 </script>
 
 <div class="container">
-    <div>
+    <div class="left">
         <h3>In collaboration with:</h3>
         <a href="https://cucats.org">
-            <img src={CUCaTS} alt="CUCaTS" />
+            <img class="cucats" src={CUCaTS} alt="CUCaTS" />
         </a>
     </div>
-
-    <div>
+    <div class="right">
         <h3>Sponsored by:</h3>
         <a href="https://janestreet.com">
-            <img src={JaneStreet} alt="Jane Street" />
+            <img class="jane-street" src={JaneStreet} alt="Jane Street" />
         </a>
     </div>
 </div>
 
 <style>
     div.container {
-        padding: 2rem;
-        font-size: large;
+        display: flex;
+    }
+
+    div.left, div.right {
+        flex: 1;
+    }
+
+    @media (max-width: 600px) {
+        div.container {
+            flex-direction: column;
+        }
     }
 
     h3 {
@@ -30,8 +38,13 @@
         margin-bottom: 1rem;
     }
 
-    img {
+    img.cucats {
         max-width: 40%;
+        height: auto;
+    }
+
+    img.jane-street {
+        max-width: 60%;
         height: auto;
     }
 </style>
