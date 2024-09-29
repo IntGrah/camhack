@@ -18,13 +18,17 @@
         display: flex;
     }
 
-    div.left, div.right {
-        flex: 1;
-    }
-
     @media (max-width: 600px) {
         div.container {
             flex-direction: column;
         }
+    }
+
+    div.left, div.right {
+        flex: 1;
+    }
+
+    p {
+        margin-bottom: 0.5rem;
     }
 </style>
