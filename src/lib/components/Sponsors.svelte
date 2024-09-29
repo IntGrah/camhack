@@ -1,13 +1,13 @@
 <script>
     import CUCaTS from "$lib/assets/cucats-logo-gradient-full.png";
     import JaneStreet from "$lib/assets/jane-street-logo.png";
+    import EntrepreneurFirst from "$lib/assets/entrepreneur-first-logo.png";
     import HudsonRiverTrading from "$lib/assets/hudson-river-trading-logo.png";
-    import EntepreneurFirst from "$lib/assets/entepreneur-first-logo-orange.png";
 </script>
 
 <div class="container">
     <div class="left">
-        <h3>In collaboration with:</h3>
+        <h3>Hosted by:</h3>
         <a href="https://cucats.org">
             <img class="cucats" src={CUCaTS} alt="CUCaTS" />
         </a>
@@ -17,6 +17,16 @@
         <a href="https://janestreet.com">
             <img class="jane-street" src={JaneStreet} alt="Jane Street" />
         </a>
+        <a href="https://www.joinef.com/">
+            <img class="ef" src={EntrepreneurFirst} alt="Entrepreneur First" />
+        </a>
+        <a href="https://www.hudsonrivertrading.com/">
+            <img
+                class="hrt"
+                src={HudsonRiverTrading}
+                alt="Hudson River Trading"
+            />
+        </a>
     </div>
 </div>
 
@@ -25,7 +35,8 @@
         display: flex;
     }
 
-    div.left, div.right {
+    div.left,
+    div.right {
         flex: 1;
     }
 
@@ -46,6 +57,16 @@
     }
 
     img.jane-street {
+        max-width: 80%;
+        height: auto;
+    }
+
+    img.ef {
+        max-width: 20%;
+        height: auto;
+    }
+
+    img.hrt {
         max-width: 60%;
         height: auto;
     }

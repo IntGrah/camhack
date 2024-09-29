@@ -4,18 +4,19 @@
 
 <header class="container">
     <Margin>
-        <div class="navigation">
-            <div class="left">Logo</div>
-            <div class="right">
-                <nav>
-                    <a href="#home">Home</a>
-                    <a href="#sponsors">Sponsors</a>
-                    <a href="#about">About</a>
-                    <a href="#schedule">Schedule</a>
-                    <a href="#rules">Rules</a>
-                    <a href="#faq">FAQ</a>
-                </nav>
+        <div class="content">
+            <div class="left">
+                <img class="camhack-logo" src="https://placehold.co/80x60" alt="Cam Hack Logo" />
+                <span class="camhack-text">Cam Hack 2024</span>
             </div>
+            <nav class="right">
+                <a href="#home">Home</a>
+                <!-- <a href="#sponsors">Sponsors</a> -->
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#rules">Rules</a>
+                <a href="#faq">FAQ</a>
+            </nav>
         </div>
     </Margin>
 </header>
@@ -31,24 +32,33 @@
         }
     }
 
-    div.navigation {
+    div.content {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    div.left {
+        display: flex;
+        align-items: center;
+        padding-left: 1.6rem;
+    }
+
+    img.camhack-logo {
+        width: 80px;
+        height: 60px;
+    }
+
+    span.camhack-text {
+        font-size: 1.6rem;
+        font-weight: bolder;
+        margin-left: 1rem;
+    }
+
+    nav.right {
+        display: flex;
+        align-items: center;
         padding: 1.6rem;
-    }
-
-    .left {
-        display: flex;
-        align-items: center;
-    }
-
-    .right {
-        display: flex;
-        align-items: center;
-    }
-
-    nav {
         display: flex;
         gap: 2rem;
     }
