@@ -31,6 +31,12 @@
                 sint repellat optio nam at in ea, quisquam placeat iure eos,
                 molestias laborum quam labore sequi ipsam distinctio?
             </p>
+            <p>
+                Qui enim eum asperiores aut, architecto, repudiandae nulla ullam
+                quis aliquam error sit voluptas assumenda ipsam rerum cumque.
+                Blanditiis minima nemo nisi? Lorem ipsum dolor sit amet
+                consectetur adipisicing elit.
+            </p>
         </Margin>
     </div>
 
@@ -158,6 +164,10 @@
 
     div.section:nth-child(even) {
         background-color: #ffffff;
+    }
+
+    p {
+        margin-bottom: 1rem;
     }
 
     h2 {
