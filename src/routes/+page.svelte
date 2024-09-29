@@ -46,15 +46,43 @@
             <h2>Rules</h2>
             <h3>Entry rules</h3>
             <ul>
-                <li>Rule 1</li>
-                <li>Rule 2</li>
-                <li>Rule 3</li>
+                <li>
+                    Ipsa mollitia, commodi sint vitae facere veniam adipisci
+                    autem dolorum totam et nemo iure unde a sequi quis
+                    aspernatur deserunt minus provident.
+                </li>
+                <li>
+                    Quo dolorem doloremque eligendi error deserunt dolore eius
+                    ratione ex sit quod repudiandae, cum beatae. Est, dolores
+                    quaerat? Esse earum fugit veritatis?
+                </li>
+                <li>
+                    Fuga doloremque repudiandae maiores esse consectetur
+                    aliquam. Maiores et impedit, perspiciatis fugit molestias
+                    sint earum quasi saepe ut a ex voluptas dolore.
+                </li>
             </ul>
             <h3>Submission rules</h3>
             <ul>
-                <li>Rule 1</li>
-                <li>Rule 2</li>
-                <li>Rule 3</li>
+                <li>
+                    Impedit veniam molestiae ipsum repudiandae, voluptatibus et
+                    minus ipsa quasi ad! Placeat alias nobis aperiam illum
+                    ratione voluptatem rem vitae libero assumenda.
+                </li>
+                <li>
+                    Laborum atque quos magnam alias molestias beatae
+                    consequuntur ipsum sed voluptates cupiditate? Corrupti
+                    officia labore dolor enim quam esse tempora eum quod.
+                </li>
+                <li>
+                    Accusamus eius, facilis quo incidunt dolorem eveniet nostrum
+                    obcaecati molestias possimus ab.
+                </li>
+                <li>
+                    Asperiores facilis, neque ea adipisci necessitatibus enim
+                    dicta, fuga optio iusto deleniti id! Architecto ipsam sed
+                    doloribus totam aliquam tempora suscipit deleniti.
+                </li>
             </ul>
         </Margin>
     </div>
