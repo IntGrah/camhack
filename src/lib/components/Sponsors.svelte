@@ -38,6 +38,7 @@
     div.left,
     div.right {
         flex: 1;
+        margin-bottom: 2rem;
     }
 
     @media (max-width: 600px) {

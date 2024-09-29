@@ -26,10 +26,11 @@
         <Margin>
             <h2>About</h2>
             <p>
-                Cam Hack is a hackathon. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Cupiditate voluptatem inventore dignissimos
-                sint repellat optio nam at in ea, quisquam placeat iure eos,
-                molestias laborum quam labore sequi ipsam distinctio?
+                Cam Hack is a hackathon. This means you need to hack. Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                voluptatem inventore dignissimos sint repellat optio nam at in
+                ea, quisquam placeat iure eos, molestias laborum quam labore
+                sequi ipsam distinctio?
             </p>
             <p>
                 Qui enim eum asperiores aut, architecto, repudiandae nulla ullam
