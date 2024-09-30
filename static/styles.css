@@ -299,6 +299,7 @@ section:nth-child(even) {
 #sponsors-grid a {
     display: inline-block;
     margin: 1rem;
+    text-decoration: none;
 }
 
 #sponsors-grid a span {
