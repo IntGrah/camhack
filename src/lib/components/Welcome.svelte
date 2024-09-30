@@ -1,11 +1,7 @@
-<script>
-    import Margin from "./Margin.svelte";
-</script>
-
 <div class="container">
-    <Margin>
+    <div class="max-w-1200px">
         <h1>Cam Hack 2024</h1>
-    </Margin>
+    </div>
 </div>
 
 <style>

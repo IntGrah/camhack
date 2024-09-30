@@ -1,16 +1,12 @@
-<script>
-    import Margin from "./Margin.svelte";
-</script>
-
 <footer class="container">
-    <Margin>
+    <div class="max-w-1200px">
         <div class="stuff">
             <h3>Stuff</h3>
             Email, credits, et cetera
         </div>
 
         <p class="copyright">ⓒ Cam Hack 2024</p>
-    </Margin>
+    </div>
 </footer>
 
 <style>

@@ -1,9 +1,5 @@
-<script lang="ts">
-    import Margin from "./Margin.svelte";
-</script>
-
 <header class="container">
-    <Margin>
+    <div class="max-w-1200px">
         <div class="content">
             <div class="left">
                 <img class="camhack-logo" src="https://placehold.co/80x60" alt="Cam Hack Logo" />
@@ -18,7 +14,7 @@
                 <a href="#faq">FAQ</a>
             </nav>
         </div>
-    </Margin>
+    </div>
 </header>
 
 <style>

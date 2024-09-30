@@ -1,7 +1,6 @@
 <script>
     import FAQuestion from "$lib/components/FAQuestion.svelte";
     import Footer from "$lib/components/Footer.svelte";
-    import Margin from "$lib/components/Margin.svelte";
     import Header from "$lib/components/Header.svelte";
     import Organisers from "$lib/components/Organisers.svelte";
     import Sponsors from "$lib/components/Sponsors.svelte";
@@ -17,13 +16,13 @@
 
 <main>
     <div id="sponsors" class="section">
-        <Margin>
+        <div class="max-w-1200px">
             <Sponsors />
-        </Margin>
+        </div>
     </div>
 
     <div id="about" class="section">
-        <Margin>
+        <div class="max-w-1200px">
             <h2>About</h2>
             <p>
                 Cam Hack is a hackathon. This means you need to hack. Lorem
@@ -38,18 +37,18 @@
                 Blanditiis minima nemo nisi? Lorem ipsum dolor sit amet
                 consectetur adipisicing elit.
             </p>
-        </Margin>
+        </div>
     </div>
 
     <div id="schedule" class="section">
-        <Margin>
+        <div class="max-w-1200px">
             <h2>Schedule</h2>
             <Schedule />
-        </Margin>
+        </div>
     </div>
 
     <div id="rules" class="section">
-        <Margin>
+        <div class="max-w-1200px">
             <h2>Rules</h2>
             <h3>Entry rules</h3>
             <ul>
@@ -91,11 +90,11 @@
                     doloribus totam aliquam tempora suscipit deleniti.
                 </li>
             </ul>
-        </Margin>
+        </div>
     </div>
 
     <div id="faq" class="section">
-        <Margin>
+        <div class="max-w-1200px">
             <h2>FAQ</h2>
             <FAQuestion>
                 <span slot="question">What is a hackathon?</span>
@@ -139,15 +138,15 @@
                 quos. Dolores quo quae fuga accusamus culpa illo earum cupiditate
                 eaque tempore?
             </FAQuestion>
-        </Margin>
+        </div>
     </div>
 
     <div class="section">
         <!-- Not linked in navigation -->
-        <Margin>
+        <div class="max-w-1200px">
             <h2>Organising Committee</h2>
             <Organisers />
-        </Margin>
+        </div>
     </div>
 </main>
 
