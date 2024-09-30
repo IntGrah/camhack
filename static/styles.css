@@ -229,6 +229,28 @@ h3 {
     }
 }
 
+#welcome-logo {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fff8e69d;
+    color: #685002;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+    border: 2px solid #f1b307;
+    border-radius: 1em;
+}
+
+.welcome-button:hover {
+    background-color: #ffffffbb;
+}
+
 /* ================ Main content ================ */
 
 section,
