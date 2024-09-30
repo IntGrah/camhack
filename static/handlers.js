@@ -5,13 +5,13 @@ document.querySelectorAll(".faq-question .faq-toggle").forEach((faqToggle) => {
     });
 });
 
-// When hamburger icon clicked, toggle menu
+// When hamburger icon clicked, toggle mobile menu
 document.getElementById("header-hamburger").addEventListener("click", () => {
     document.getElementById("header-hamburger").classList.toggle("expanded");
-    document.getElementById("header-menu-container").classList.toggle("expanded");
+    document.getElementById("mobile-menu-container").classList.toggle("expanded");
 });
 
-// When menu link clicked, close menu
+// When mobile menu link clicked, close mobile menu
 document.querySelectorAll("#header-menu a").forEach((menuLink) => {
     menuLink.addEventListener("click", () => {
         document.getElementById("header-menu-container").classList.remove("expanded");

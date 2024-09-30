@@ -108,30 +108,10 @@ h3 {
     justify-content: space-between;
 }
 
-#header-camhack-logo {
-    width: 80px;
-    height: 60px;
-}
-
-#header-camhack-text {
-    font-size: 1.6rem;
-    font-weight: bold;
-    margin-left: 1rem;
-}
-
 @media (max-width: 480px) {
     #header {
         padding: 0.5rem 1rem;
-    }
-
-    #header-camhack-logo {
-        width: 60px;
-        height: 48px;
-    }
-
-    #header-camhack-text {
-        font-size: 1.2rem;
-        margin-left: 0.5rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -146,7 +126,7 @@ h3 {
 }
 
 #header-navigation a {
-    font-size: larger;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #000000;
     transition: color 0.3s;
@@ -155,6 +135,8 @@ h3 {
 #header-navigation a:hover {
     color: #555555;
 }
+
+/* ================ Hamburger icon ================ */
 
 #header-hamburger {
     display: none;
@@ -190,65 +172,69 @@ h3 {
     transform: translate(0, -11px) rotate(45deg);
 }
 
-#header-menu-container {
+/* ================ Mobile menu ================ */
+
+#mobile-menu-container {
     position: absolute;
     width: 100%;
 }
 
-#header-menu-container #header-menu-container2 {
+#mobile-menu-container #mobile-menu-container2 {
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 0.15s;
 }
 
-#header-menu-container.expanded #header-menu-container2 {
+#mobile-menu-container.expanded #mobile-menu-container2 {
     grid-template-rows: 1fr;
 }
 
-#header-menu-container #header-menu-container2 #header-menu {
+#mobile-menu-container #mobile-menu-container2 #mobile-menu {
     padding: 0;
     overflow: hidden;
 }
 
-#header-menu-container #header-menu-container2 #header-menu a {
+#mobile-menu-container #mobile-menu-container2 #mobile-menu a {
     display: block;
     padding: 1rem 2rem;
     text-decoration: none;
     color: #333333;
-    font-size: larger;
+    font-size: 1.2rem;
     background-color: #ffffff;
     transition: background-color 0.3s;
 }
 
-#header-menu-container #header-menu-container2 #header-menu a:active {
+#mobile-menu-container #mobile-menu-container2 #mobile-menu a:active {
     background-color: #ffd782;
 }
 
-/* ================ Rest ================ */
+/* ================ Welcome box ================ */
 
-#welcome-box {
-    height: 480px;
+#welcome-container {
     padding: 3rem 6rem;
+    font-size: 1rem;
 }
 
 @media (max-width: 600px) {
-    #welcome-box {
-        height: 420px;
+    #welcome-container {
         padding: 2rem 4rem;
+        font-size: 0.8rem;
     }
 }
 
 @media (max-width: 480px) {
-    #welcome-box {
-        height: 360px;
+    #welcome-container {
         padding: 1rem 2rem;
+        font-size: 0.7rem;
     }
 }
+
+/* ================ Main content ================ */
 
 section,
 footer {
     padding: 2rem 6rem;
-    font-size: large;
+    font-size: 1rem;
 }
 
 @media (max-width: 800px) {
@@ -275,13 +261,32 @@ section:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-#sponsors-container a {
-    width: 25%;
-    /* TODO: make each logo approximate the same size */
+#sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
 }
 
-#sponsors-container a img {
-    width: 100%;
+@media (max-width: 640px) {
+    #sponsors-grid {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+
+#sponsors-grid a {
+    display: inline-block;
+    margin: 1rem;
+}
+
+#sponsors-grid a span {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#sponsors-grid a img {
+    vertical-align: middle;
 }
 
 @media (max-width: 480px) {
@@ -292,10 +297,4 @@ section:nth-child(even) {
 
 .background-gradient {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-}
-
-#copyright-notice {
-    font-family: monospace;
-    font-size: larger;
-    color: #333333;
 }

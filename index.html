@@ -16,7 +16,7 @@
             <div id="header-container">
                 <div id="header-camhack">
                     <img id="header-camhack-logo" src="https://placehold.co/80x60" alt="Cam Hack Logo" />
-                    <p id="header-camhack-text">Cam Hack 2024</p>
+                    <p style="font-size: 1.6em; font-weight: bold; margin-left: 1rem;">Cam Hack 2024</p>
                 </div>
                 <nav id="header-navigation">
                     <a href="#home">Home</a>
@@ -33,9 +33,10 @@
             </div>
         </div>
     </header>
-    <div id="header-menu-container">
-        <div id="header-menu-container2">
-            <menu id="header-menu">
+    <!-- Two containers are necessary in order for the animation to work. -->
+    <div id="mobile-menu-container">
+        <div id="mobile-menu-container2">
+            <menu id="mobile-menu">
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#schedule">Schedule</a>
@@ -45,31 +46,51 @@
         </div>
     </div>
 
-    <div id="welcome-box" class="background-gradient">
-        <div class="max-w-1200px">
-            <h1>Cam Hack 2024</h1>
-            <!-- <h3>Hosted by:</h3> -->
-            <!-- <a href="https://cucats.org">
+    <div id="welcome-container" class="background-gradient">
+        <div style="height: 16em;">
+            <div class="max-w-1200px">
+                <h1 class="mb-1rem" style="font-size: 3em;">Cam Hack 2024</h1>
+                <p style="font-size: 2em;">2 &ndash; 3 November</p>
+                <p style="font-size: 1.5em; font-weight: bold;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit!
+                </p>
+                <a href="javascript:void(0)">Discord</a>
+                <!-- <h3>Hosted by:</h3> -->
+                <!-- <a href="https://cucats.org">
                 <img id="cucats-logo" src="static/cucats-logo-gradient-full.png" alt="CUCaTS" />
             </a> -->
+            </div>
+        </div>
+        <div style="height: 12em;">
+            <div class="max-w-1200px">
+                Eum distinctio suscipit laudantium ab tenetur
+                officiis corporis quia veritatis numquam unde.
+            </div>
         </div>
     </div>
 
     <section id="sponsors">
         <!-- Not linked in navigation -->
-        <div id="sponsors-container" class="flex max-w-1200px">
-            <a href="https://www.joinef.com/">
-                <img id="ef-logo" src="static/entrepreneur-first-logo.png" alt="Entrepreneur First" />
-            </a>
-            <a href="https://www.hudsonrivertrading.com/">
-                <img id="hrt-logo" src="static/hudson-river-trading-logo.png" alt="Hudson River Trading" />
-            </a>
-            <a href="https://janestreet.com">
-                <img id="js-logo" src="static/jane-street-logo.png" alt="Jane Street" />
-            </a>
-            <a href="https://www.qube-rt.com">
-                <img id="qrt-logo" src="static/qube-rt-logo.png" alt="Qube Research & Technologies" />
-            </a>
+        <div class="max-w-1200px">
+            <h3 class="mb-1rem" style="text-align: center;">Our sponsors:</h3>
+            <div id="sponsors-grid">
+                <a href="https://www.joinef.com/">
+                    <span></span>
+                    <img src="static/entrepreneur-first-logo.png" alt="Entrepreneur First" style="width: 50%;" />
+                </a>
+                <a href="https://www.hudsonrivertrading.com/">
+                    <span></span>
+                    <img src="static/hudson-river-trading-logo.png" alt="Hudson River Trading" style="width: 95%;" />
+                </a>
+                <a href="https://janestreet.com">
+                    <span></span>
+                    <img src="static/jane-street-logo.png" alt="Jane Street" style="width: 95%;" />
+                </a>
+                <a href="https://www.qube-rt.com">
+                    <span></span>
+                    <img src="static/qube-rt-logo.png" alt="Qube Research & Technologies" style="width: 60%;" />
+                </a>
+            </div>
         </div>
     </section>
 
@@ -278,7 +299,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
 
-            <p id="copyright-notice">Copyright Cam Hack 2024</p>
+            <p style="font-family: monospace; color: #333333;">Copyright Cam Hack 2024</p>
         </div>
     </footer>
 
