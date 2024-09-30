@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/styles.css" />
 </head>
 
@@ -10,7 +11,7 @@
     <div id="home"></div>
     <!-- For navigation via /#home -->
 
-    <header>
+    <header id="header">
         <div class="max-w-1200px">
             <div id="header-container">
                 <div id="header-camhack">
@@ -19,15 +20,30 @@
                 </div>
                 <nav id="header-navigation">
                     <a href="#home">Home</a>
-                    <!-- <a href="#sponsors">Sponsors</a> -->
                     <a href="#about">About</a>
                     <a href="#schedule">Schedule</a>
                     <a href="#rules">Rules</a>
                     <a href="#faq">FAQ</a>
                 </nav>
+                <div id="header-hamburger">
+                    <div id="header-hamburger-bar-1"></div>
+                    <div id="header-hamburger-bar-2"></div>
+                    <div id="header-hamburger-bar-3"></div>
+                </div>
             </div>
         </div>
     </header>
+    <div id="header-menu-container">
+        <div id="header-menu-container2">
+            <menu id="header-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#rules">Rules</a>
+                <a href="#faq">FAQ</a>
+            </menu>
+        </div>
+    </div>
 
     <div id="welcome-box" class="background-gradient">
         <div class="max-w-1200px">
@@ -145,12 +161,12 @@
     <section id="faq">
         <div class="max-w-1200px">
             <h2 class="mb-1rem">FAQ</h2>
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     What is a hackathon?
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Officiis assumenda ducimus debitis reiciendis dolore dolores
@@ -160,12 +176,12 @@
                 </div>
             </div>
 
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     What teams are allowed?
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Officiis assumenda ducimus debitis reiciendis dolore dolores
@@ -174,12 +190,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     How do I sign up?
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Animi eum unde soluta dolore eveniet atque dolor,
@@ -189,12 +205,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     What is the prize?
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                         voluptate vel exercitationem dignissimos ullam magnam,
@@ -203,12 +219,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     Bggrl barg plob!?
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. A
                         voluptate vel exercitationem dignissimos ullam magnam,
@@ -217,12 +233,12 @@
                     </div>
                 </div>
             </div>
-            <div class="mb-1rem faq-question">
-                <h3 class="faq-toggle">
+            <div class="faq-question">
+                <h3 class="mb-0.5rem faq-toggle">
                     You didn't answer my questions!
                     <i class="faq-chevron"></i>
                 </h3>
-                <div class="faq-answer">
+                <div class="mb-0.5rem faq-answer">
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Dolores facere error sunt quas ratione obcaecati vel
@@ -238,7 +254,7 @@
         <!-- Not linked in navigation -->
         <div class="max-w-1200px">
             <h2 class="mb-1rem">Organising Committee</h2>
-            <div class="flex max-600px:flex-col">
+            <div id="organisers-container" class="flex">
                 <div>
                     <p class="mb-0.5rem">Jane Janet Doe</p>
                     <p class="mb-0.5rem">John Joseph Smith</p>
