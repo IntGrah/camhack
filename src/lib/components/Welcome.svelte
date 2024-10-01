@@ -2,7 +2,7 @@
     <img
         src="https://placehold.co/320x320"
         alt="Cam Hack Logo"
-        class="mx-auto size-60 sm:size-72 sm:mr-8 sm:mb-8 sm:float-left md:size-80"
+        class="mx-auto mb-8 size-60 sm:size-72 sm:mr-8 sm:float-left md:size-80"
     />
     <h1 class="mb-4 text-5xl font-bold">Cam&nbsp;Hack&nbsp;2024</h1>
     <p class="mb-4" style="font-size: 2em;">
