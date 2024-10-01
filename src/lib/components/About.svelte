@@ -1,16 +1,24 @@
 <div class="max-w-7xl mx-auto">
     <h2 class="mb-4 text-4xl font-bold">About</h2>
     <p>
-        Cam Hack is a hackathon. This means you need to hack. Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
-        voluptatem inventore dignissimos sint repellat optio nam at in
-        ea, quisquam placeat iure eos, molestias laborum quam labore
-        sequi ipsam distinctio?
-    </p>
+        Cam Hack is an exciting, student-led hackathon exclusively for the 
+        innovative minds at the University of Cambridge. Over an action-packed weekend, 
+        students from diverse disciplines will come together to design, build, and launch 
+        groundbreaking technology projects from the ground up. Whether you're a seasoned coder 
+        or a curious beginner, Cam Hack offers the perfect environment to push boundaries, 
+        collaborate with like-minded peers, and bring your most creative ideas to life.
+With tracks led by industry experts, participants will gain hands-on experience 
+while exploring the latest in technology. Plus, there’s no shortage of fun—expect 
+plenty of free merch, great food, and a lively atmosphere throughout the event.
+</p>
+
     <p>
-        Qui enim eum asperiores aut, architecto, repudiandae nulla ullam
-        quis aliquam error sit voluptas assumenda ipsam rerum cumque.
-        Blanditiis minima nemo nisi? Lorem ipsum dolor sit amet
-        consectetur adipisicing elit.
+        <br>
+Compete for prestigious awards and prizes totaling over $X, while making 
+valuable connections and learning skills that will serve you far beyond 
+the weekend. Whether you're building apps, AI, or something entirely new, 
+Cam Hack is the ultimate platform to turn your vision into reality. 
+Join us for a weekend of creativity, innovation, and unforgettable experiences!
     </p>
+
 </div>
