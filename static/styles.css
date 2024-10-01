@@ -76,6 +76,11 @@ h3 {
     justify-content: space-between;
 }
 
+#header-camhack {
+    color: #333333;
+    text-decoration: none;
+}
+
 @media (max-width: 480px) {
     #header {
         padding: 0.5rem 1rem;
@@ -279,14 +284,6 @@ footer {
     }
 }
 
-section:nth-child(odd) {
-    background-color: #ffffff;
-}
-
-section:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
 /* ================ Sponsors ================ */
 
 #sponsors-grid {
@@ -295,7 +292,7 @@ section:nth-child(even) {
     text-align: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
     #sponsors-grid {
         grid-template-columns: repeat(2, 50%);
     }
