@@ -6,9 +6,7 @@
     }
 </script>
 
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<!-- svelte-ignore a11y-no-static-element-interactions -->
-<div on:click={toggle} class="md:hidden cursor-pointer group">
+<button on:click={toggle} class="md:hidden cursor-pointer group">
     <div
         class="my-1 w-7 h-1 bg-slate-700 rounded-full transition-all"
         class:expanded-bar-1={expanded}
@@ -21,7 +19,7 @@
         class="my-1 w-7 h-1 bg-slate-700 rounded-full transition-all"
         class:expanded-bar-3={expanded}
     ></div>
-</div>
+</button>
 
 <style>
     .expanded-bar-1 {

@@ -9,12 +9,10 @@
 </script>
 
 <div class="mb-4">
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-    <h3 class="font-bold cursor-pointer" on:click={toggle}>
+    <button class="font-bold cursor-pointer" on:click={toggle}>
         <slot name="question" />
         <i class="chevron" class:up={isExpanded}></i>
-    </h3>
+    </button>
     {#if isExpanded}
         <div class="mb-4" transition:slide>
             <slot />

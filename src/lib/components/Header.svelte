@@ -20,23 +20,23 @@
         <nav class="max-md:hidden flex items-center gap-6">
             <a
                 class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="#home">Home</a
+                href="/">Home</a
             >
             <a
                 class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="#about">About</a
+                href="/#about">About</a
             >
             <a
                 class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="#schedule">Schedule</a
+                href="/#schedule">Schedule</a
             >
             <a
                 class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="#rules">Rules</a
+                href="/#rules">Rules</a
             >
             <a
                 class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="#faq">FAQ</a
+                href="/#faq">FAQ</a
             >
         </nav>
         <Hamburger bind:expanded />
