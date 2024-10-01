@@ -1,53 +1,21 @@
-<div class="container">
-    <div class="left">
-        <h3>Day 1</h3>
-        <ul>
-            <li>Interesting stuff</li>
-            <li>More interesting stuff</li>
-            <li>Stuff is happening</li>
-        </ul>
-    </div>
-    <div class="middle">
-        <h3>Day 2</h3>
-        <ul>
-            <li>Interesting stuff</li>
-            <li>More interesting stuff</li>
-        </ul>
-    </div>
-    <div class="right">
-        <h3>Day 3</h3>
-        <ul>
-            <li>Interesting stuff</li>
-            <li>More interesting stuff</li>
-            <li>Yet more interesting stuff</li>
-        </ul>
+<div class="max-w-7xl mx-auto">
+    <h2 class="mb-4 text-4xl font-bold">Schedule</h2>
+    <div class="flex max-md:flex-col">
+        <div class="flex-1 mb-4">
+            <h3 class="mb-4 text-2xl font-bold">Saturday</h3>
+            <ul>
+                <li class="mb-2">Interesting stuff</li>
+                <li class="mb-2">More interesting stuff</li>
+                <li class="mb-2">Stuff is happening</li>
+            </ul>
+        </div>
+        <div class="flex-1 mb-4">
+            <h3 class="mb-4 text-2xl font-bold">Sunday</h3>
+            <ul>
+                <li class="mb-2">Interesting stuff</li>
+                <li class="mb-2">More interesting stuff</li>
+                <li class="mb-2">Yet more interesting stuff</li>
+            </ul>
+        </div>
     </div>
 </div>
-
-<style>
-    div.container {
-        display: flex;
-    }
-
-    div.left,
-    div.middle,
-    div.right {
-        flex: 1;
-        margin-bottom: 1rem;
-    }
-
-    @media (max-width: 800px) {
-        div.container {
-            flex-direction: column;
-        }
-    }
-
-    ul {
-        padding: 0;
-    }
-
-    li {
-        list-style-type: none;
-        margin-bottom: 0.5rem;
-    }
-</style>

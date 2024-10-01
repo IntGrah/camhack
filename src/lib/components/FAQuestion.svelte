@@ -8,29 +8,21 @@
     }
 </script>
 
-<div class="container">
+<div class="mb-4">
     <!-- svelte-ignore a11y-click-events-have-key-events -->
     <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-    <h3 class="toggle" on:click={toggle}>
+    <h3 class="font-bold cursor-pointer" on:click={toggle}>
         <slot name="question" />
         <i class="chevron" class:up={isExpanded}></i>
     </h3>
     {#if isExpanded}
-        <div class="answer" transition:slide>
+        <div class="mb-4" transition:slide>
             <slot />
         </div>
     {/if}
 </div>
 
 <style>
-    div.container {
-        /* Empty */
-    }
-
-    h3.toggle {
-        cursor: pointer;
-    }
-
     /* By setting the bottom and right borders of a square
        and rotating it, we can create a convincing chevron. */
     .chevron {
@@ -45,9 +37,5 @@
 
     .chevron.up {
         transform: rotate(-135deg);
-    }
-
-    div.answer {
-        margin-bottom: 1em;
     }
 </style>

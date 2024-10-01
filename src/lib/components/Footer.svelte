@@ -1,26 +1,8 @@
-<footer class="container">
-    <div class="max-w-1200px">
-        <div class="stuff">
-            <h3>Stuff</h3>
-            Email, credits, et cetera
-        </div>
-
-        <p class="copyright">ⓒ Cam Hack 2024</p>
+<div class="max-w-7xl mx-auto">
+    <div class="mb-8">
+        <h3 class="mb-4">Stuff</h3>
+        Email, credits, et cetera
     </div>
-</footer>
 
-<style>
-    footer.container {
-        background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-        padding: 2rem;
-    }
-
-    div.stuff {
-        margin-bottom: 2rem;
-    }
-
-    p.copyright {
-        font-family: monospace;
-        color: #444444;
-    }
-</style>
+    <p class="monospace text-gray-700">ⓒ Cam Hack 2024</p>
+</div>
