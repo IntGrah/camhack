@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+     background-image: url('background.svg');
+     background-size: cover;
+     background-attachment: local, scroll;
+}
+
+/* Make sure the background spans the entire page */
+.section {
+    height: 100vh; /* Full screen height for each section */
+    background-position: center;
+    background-size: cover; /* Stretch background to cover entire section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Adjust the first section (intro) */
+#intro {
+    /* Replace with your SVG */
+    color: white;
+    text-align: center;
+}
+
+/* Navigation positioning */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul li {
+    color: white;
+    cursor: pointer;
+}
+
+/* Styling the text content */
+.content {
+    text-align: center;
+    max-width: 800px;
+}
+
+h1, h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#about, #sponsors, #rules, #faq, #schedule, #committee {
+    color: white;
+}
+
+.names p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
