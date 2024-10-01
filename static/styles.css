@@ -16,15 +16,15 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 /* ================ Utility classes ================ */
@@ -56,41 +56,8 @@ h3 {
     }
 }
 
-/* ================ FAQ accordion ================ */
-
-.faq-question .faq-toggle {
-    cursor: pointer;
-}
-
-/* By setting the bottom and right borders of a square
-   and rotating it, we can create a convincing chevron. */
-.faq-question .faq-chevron {
-    margin-left: 0.5em;
-    border: medium solid currentColor;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 0.2em;
-    transition: transform 0.15s;
-    transform: translateY(-4px) rotate(45deg);
-}
-
-.faq-question.expanded .faq-chevron {
-    transform: rotate(-135deg);
-}
-
-/* Using grid-template-rows allows animation of automatic height. */
-.faq-question .faq-answer {
-    display: grid;
-    grid-template-rows: 0fr;
-    transition: grid-template-rows 0.3s;
-}
-
-.faq-question.expanded .faq-answer {
-    grid-template-rows: 1fr;
-}
-
-.faq-question .faq-answer>div {
-    overflow: hidden;
+.background-gradient {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 
 /* ================ Header ================ */
@@ -98,6 +65,7 @@ h3 {
 #header {
     padding: 1rem 2rem;
     background-color: #ffffff;
+    user-select: none;
 }
 
 #header-container,
@@ -177,6 +145,13 @@ h3 {
 #mobile-menu-container {
     position: absolute;
     width: 100%;
+    user-select: none;
+}
+
+@media (min-width: 800px) {
+    #mobile-menu-container {
+        display: none;
+    }
 }
 
 #mobile-menu-container #mobile-menu-container2 {
@@ -205,7 +180,7 @@ h3 {
 }
 
 #mobile-menu-container #mobile-menu-container2 #mobile-menu a:active {
-    background-color: #ffd782;
+    background-color: #fff6e2;
 }
 
 /* ================ Welcome box ================ */
@@ -215,17 +190,18 @@ h3 {
     font-size: 1rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     #welcome-container {
         padding: 2rem 4rem;
         font-size: 0.8rem;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     #welcome-container {
-        padding: 1rem 2rem;
+        padding: 2rem 2rem;
         font-size: 0.7rem;
+        text-align: center;
     }
 }
 
@@ -233,6 +209,33 @@ h3 {
     float: left;
     margin-right: 2em;
     margin-bottom: 2em;
+    width: 320px;
+    height: 320px;
+}
+
+@media (max-width: 1000px) {
+    #welcome-logo {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 600px) {
+    #welcome-logo {
+        float: none;
+        width: 240px;
+        height: 240px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    #welcome-logo {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .welcome-button {
@@ -245,6 +248,7 @@ h3 {
     transition: background-color 0.3s;
     border: 2px solid #f1b307;
     border-radius: 1em;
+    user-select: none;
 }
 
 .welcome-button:hover {
@@ -283,6 +287,8 @@ section:nth-child(even) {
     background-color: #f9f9f9;
 }
 
+/* ================ Sponsors ================ */
+
 #sponsors-grid {
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -312,12 +318,49 @@ section:nth-child(even) {
     vertical-align: middle;
 }
 
+
+/* ================ FAQ ================ */
+
+.faq-question .faq-toggle {
+    cursor: pointer;
+    user-select: none;
+}
+
+/* By setting the bottom and right borders of a square
+   and rotating it, we can create a convincing chevron. */
+.faq-question .faq-chevron {
+    margin-left: 0.5em;
+    border: medium solid currentColor;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0.2em;
+    transition: transform 0.15s;
+    transform: translateY(-4px) rotate(45deg);
+}
+
+.faq-question.expanded .faq-chevron {
+    transform: rotate(-135deg);
+}
+
+/* Using grid-template-rows allows animation of automatic height. */
+.faq-question .faq-answer {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s;
+}
+
+.faq-question.expanded .faq-answer {
+    grid-template-rows: 1fr;
+}
+
+.faq-question .faq-answer>div {
+    overflow: hidden;
+}
+
+/* ================ Organisers ================ */
+
 @media (max-width: 480px) {
     #organisers-container {
         flex-direction: column;
     }
-}
-
-.background-gradient {
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
