@@ -8,7 +8,7 @@
     import Organisers from "$lib/components/Organisers.svelte";
 </script>
 
-<div class="h-96 p-12 theme-bg-gradient">
+<div class="p-8 sm:p-12 theme-bg-gradient">
     <Welcome />
 </div>
 

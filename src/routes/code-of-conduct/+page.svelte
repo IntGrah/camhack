@@ -1,18 +1,23 @@
 <section class="px-8 py-4">
     <div class="max-w-7xl mx-auto">
-        <h1 class="mb-8 text-4xl font-bold">Code of conduct</h1>
+        <h1 class="mb-8 text-4xl font-bold">Code of Conduct</h1>
         <p class="mb-4 text-xl">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            doloribus commodi magnam fugiat, impedit assumenda consequatur
-            incidunt. Architecto, dolorem aut. Doloremque ducimus modi
-            blanditiis, distinctio beatae praesentium reiciendis voluptatum
-            alias?
+            Cam Hack is committed to providing a safe, inclusive, and welcoming
+            experience for everyone. This code of conduct outlines our
+            expectations for all participants and attendees.
         </p>
         <p class="mb-4 text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            quo est reprehenderit, eaque beatae officiis labore sed, nemo
-            impedit quis aut veniam fugiat. Ipsum, laudantium. Laboriosam totam
-            sit culpa eveniet.
+            We do not tolerate any form of harassment, discrimination, or
+            exclusion of any form. In particular, we do not tolerate
+            discrimination based on
         </p>
+        <ul class="pl-8 text-xl list-disc">
+            <li>race, ethnicity, or nationality</li>
+            <li>gender identity, expression, or sexual orientation</li>
+            <li>age</li>
+            <li>disability or medical condition</li>
+            <li>physical appearance or body size</li>
+            <li>religion or belief system.</li>
+        </ul>
     </div>
 </section>

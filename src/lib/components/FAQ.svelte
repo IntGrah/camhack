@@ -20,10 +20,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">How do I sign up?</span>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum
-        unde soluta dolore eveniet atque dolor, necessitatibus rerum assumenda,
-        tempora ullam reprehenderit culpa adipisci, alias similique. Aliquam,
-        quae. Distinctio, maxime.
+        Fill out the <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="hyperlink">sign up form</a> by &lt;date&gt;.
     </FAQuestion>
     <FAQuestion>
         <span slot="question">What is the prize?</span>
