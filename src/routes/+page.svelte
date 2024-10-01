@@ -15,7 +15,7 @@
         <!-- For navigation via /#home -->
     </div>
 
-    <header class="bg-white max-md:hidden">
+    <header class="bg-white">
         <Header />
     </header>
 
@@ -23,28 +23,28 @@
         <Welcome />
     </div>
 
-    <section id="sponsors" class="p-8 text-lg">
+    <section id="sponsors" class="px-8 py-4 text-lg">
         <!-- Not linked in navigation -->
         <Sponsors />
     </section>
 
-    <section id="about" class="p-8 text-lg">
+    <section id="about" class="px-8 py-4 text-lg">
         <About />
     </section>
 
-    <section id="schedule" class="p-8 text-lg">
+    <section id="schedule" class="px-8 py-4 text-lg">
         <Schedule />
     </section>
 
-    <section id="rules" class="p-8 text-lg">
+    <section id="rules" class="px-8 py-4 text-lg">
         <Rules />
     </section>
 
-    <section id="faq" class="p-8 text-lg">
+    <section id="faq" class="px-8 py-4 text-lg">
         <FAQ />
     </section>
 
-    <section id="organisers" class="p-8 text-lg">
+    <section id="organisers" class="px-8 py-4 text-lg">
         <!-- Not linked in navigation -->
         <Organisers />
     </section>

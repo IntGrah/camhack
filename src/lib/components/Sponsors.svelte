@@ -1,12 +1,13 @@
 <script>
     // import CUCaTS from "$lib/assets/cucats-logo-gradient-full.png";
-    import JaneStreet from "$lib/assets/jane-street-logo.png";
     import EntrepreneurFirst from "$lib/assets/entrepreneur-first-logo.png";
     import HudsonRiverTrading from "$lib/assets/hudson-river-trading-logo.png";
+    import JaneStreet from "$lib/assets/jane-street-logo.png";
+    import QubeRT from "$lib/assets/qube-rt-logo.png";
 </script>
 
 <div class="max-w-7xl mx-auto">
-    <h3 class="mb-4 text-3xl font-bold">Sponsored by</h3>
+    <h3 class="mb-4 text-3xl font-bold text-center">Sponsored by</h3>
     <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center">
         <a
             class="inline-block decoration-0"
@@ -27,7 +28,7 @@
         >
             <span class="inline-block h-full align-middle"></span>
             <img
-                class="inline-block align-middle h-auto w-3/5"
+                class="inline-block align-middle h-auto w-2/5"
                 src={EntrepreneurFirst}
                 alt="Entrepreneur First"
             />
@@ -42,6 +43,18 @@
                 class="inline-block align-middle h-auto w-11/12"
                 src={HudsonRiverTrading}
                 alt="Hudson River Trading"
+            />
+        </a>
+        <a
+            class="inline-block decoration-0"
+            target="_blank"
+            href="https://www.qube-rt.com/"
+        >
+            <span class="inline-block h-full align-middle"></span>
+            <img
+                class="inline-block align-middle h-auto w-3/5"
+                src={QubeRT}
+                alt="Qube RT"
             />
         </a>
     </grid>

@@ -1,7 +1,7 @@
 <div class="max-w-7xl mx-auto">
     <h2 class="mb-4 text-4xl font-bold">Rules</h2>
     <h3 class="mb-4 text-3xl font-bold">Entry rules</h3>
-    <ul>
+    <ul class="mb-4 pl-8 list-disc">
         <li>
             Ipsa mollitia, commodi sint vitae facere veniam adipisci
             autem dolorum totam et nemo iure unde a sequi quis
@@ -19,7 +19,7 @@
         </li>
     </ul>
     <h3 class="mb-4 text-3xl font-bold">Submission rules</h3>
-    <ul>
+    <ul class="mb-4 pl-8 list-disc">
         <li>
             Impedit veniam molestiae ipsum repudiandae, voluptatibus et
             minus ipsa quasi ad! Placeat alias nobis aperiam illum
