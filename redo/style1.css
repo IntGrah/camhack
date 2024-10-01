@@ -7,17 +7,17 @@
 body, html {
     height: 100%;
     font-family: Arial, sans-serif;
-    overflow-x: hidden; /* Prevent horizontal scroll */
+    overflow-x: hidden; 
      background-image: url('background.svg');
      background-size: cover;
      background-attachment: local, scroll;
 }
 
-/* Make sure the background spans the entire page */
+
 .section {
-    height: 100vh; /* Full screen height for each section */
+    height: 100vh;
     background-position: center;
-    background-size: cover; /* Stretch background to cover entire section */
+    background-size: cover; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,14 +25,14 @@ body, html {
     position: relative;
 }
 
-/* Adjust the first section (intro) */
+
 #intro {
-    /* Replace with your SVG */
+
     color: white;
     text-align: center;
 }
 
-/* Navigation positioning */
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -48,7 +48,7 @@ nav ul li {
     cursor: pointer;
 }
 
-/* Styling the text content */
+
 .content {
     text-align: center;
     max-width: 800px;
