@@ -4,10 +4,8 @@
         <li>
             All participants must follow our <a
                 href="/code-of-conduct"
-                class="text-amber-600 hover:text-amber-700"
-            >
-                Code of Conduct
-            </a>, including hackathon submissions.
+                class="theme-hyperlink">Code of Conduct</a
+            >, including hackathon submissions.
         </li>
     </ul>
     <h3 class="mb-4 text-3xl font-bold">Entry rules</h3>
