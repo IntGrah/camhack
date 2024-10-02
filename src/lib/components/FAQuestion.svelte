@@ -9,12 +9,12 @@
 </script>
 
 <div class="mb-4">
-    <button class="font-bold cursor-pointer" on:click={toggle}>
+    <button class="mb-2 font-bold cursor-pointer" on:click={toggle}>
         <slot name="question" />
         <i class="chevron" class:up={isExpanded}></i>
     </button>
     {#if isExpanded}
-        <div class="mb-4" transition:slide>
+        <div class="mb-2" transition:slide>
             <slot />
         </div>
     {/if}

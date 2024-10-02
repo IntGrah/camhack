@@ -12,9 +12,10 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Where is it?</span>
-        Cam Hack will be in the
-        <a href="https://maps.app.goo.gl/185n4bsvv7AXw3FM7"
-            >William Gates Building</a
+        Cam Hack 2024 will be in the
+        <a
+            href="https://maps.app.goo.gl/185n4bsvv7AXw3FM7"
+            class="theme-hyperlink">William Gates Building</a
         >, 15 JJ Thomson Avenue CB3 0FD.
     </FAQuestion>
     <FAQuestion>
@@ -26,12 +27,14 @@
     <FAQuestion>
         <span slot="question">How do I sign up?</span>
         Fill out the
-        <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-            class="text-amber-600 hover:text-amber-700"
-        >
-            sign up form
-        </a> by TODO_INSERT_DATE.
+        <a href="/signup" class="theme-hyperlink"> sign up form </a> by TODO!
+    </FAQuestion>
+    <FAQuestion>
+        <span slot="question">I've never hacked before!</span>
+        TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate
+        vel exercitationem dignissimos ullam magnam, quisquam nobis sed voluptatem
+        similique laboriosam, nostrum perspiciatis nisi! Magni quaerat ipsum vitae
+        natus rem!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">What prizes are there?</span>
@@ -48,15 +51,13 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Bggrl barg plob!?</span>
-        TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptate
-        vel exercitationem dignissimos ullam magnam, quisquam nobis sed voluptatem
-        similique laboriosam, nostrum perspiciatis nisi! Magni quaerat ipsum vitae
-        natus rem!
+        Bgrl plorb! Barlgrl bgrl plorb, flurb glrb. Uh-oh, I think I've been hacked!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">You didn't answer my questions!</span>
-        TODO Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facere
-        error sunt quas ratione obcaecati vel perspiciatis debitis quos. Dolores
-        quo quae fuga accusamus culpa illo earum cupiditate eaque tempore?
+        Ask us anything in our
+        <a target="_blank" href="/discord" class="theme-hyperlink"
+            >Discord server</a
+        >! You can also email us at TODO, or speak to us in person at the event.
     </FAQuestion>
 </div>
