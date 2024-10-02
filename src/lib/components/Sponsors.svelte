@@ -9,11 +9,7 @@
 <div class="max-w-7xl mx-auto">
     <h3 class="mb-4 text-3xl font-bold text-center">Sponsored by</h3>
     <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center text-[0]">
-        <a
-            class="inline-block decoration-0"
-            target="_blank"
-            href="https://www.joinef.com/"
-        >
+        <a class="inline-block" target="_blank" href="https://www.joinef.com/">
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-2/5"
@@ -22,7 +18,7 @@
             />
         </a>
         <a
-            class="inline-block decoration-0"
+            class="inline-block"
             target="_blank"
             href="https://www.hudsonrivertrading.com/"
         >
@@ -33,11 +29,7 @@
                 alt="Hudson River Trading"
             />
         </a>
-        <a
-            class="inline-block decoration-0"
-            target="_blank"
-            href="https://janestreet.com"
-        >
+        <a class="inline-block" target="_blank" href="https://janestreet.com">
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-11/12"
@@ -45,11 +37,7 @@
                 alt="Jane Street"
             />
         </a>
-        <a
-            class="inline-block decoration-0"
-            target="_blank"
-            href="https://www.qube-rt.com/"
-        >
+        <a class="inline-block" target="_blank" href="https://www.qube-rt.com/">
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-3/5"

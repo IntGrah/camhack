@@ -8,14 +8,14 @@
     <p class="mb-4 text-2xl sm:text-3xl">2&nbsp;&ndash;&nbsp;3&nbsp;November</p>
     <div class="mb-4 flex flex-wrap max-sm:justify-center gap-4">
         <a
-            class="px-6 py-4 decoration-0 rounded-2xl select-none transition-all text-amber-900 bg-orange-200 hover:bg-orange-100 hover:scale-105"
+            class="px-6 py-4 rounded-2xl select-none transition-all text-amber-900 bg-orange-200 hover:bg-orange-100 hover:scale-105"
             target="_blank"
             href="/discord"
         >
             Join the Discord!
         </a>
         <a
-            class="px-6 py-4 decoration-0 rounded-2xl select-none transition-all text-amber-900 bg-orange-200 hover:bg-orange-100 hover:scale-105"
+            class="px-6 py-4 rounded-2xl select-none transition-all text-amber-900 bg-orange-200 hover:bg-orange-100 hover:scale-105"
             href="/signup"
         >
             Sign up here!
