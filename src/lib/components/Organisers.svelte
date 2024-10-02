@@ -8,11 +8,12 @@
             <p class="mb-2">Oliver Greenwood</p>
             <p class="mb-2">Swarnim Jain</p>
             <p class="mb-2">Eugene Kang</p>
+            <p class="mb-2">Carol Khor</p>
         </div>
         <div class="flex-1">
-            <p class="mb-2">Carol Khor</p>
             <p class="mb-2">Varun Latthe</p>
             <p class="mb-2">Dylan Moss</p>
+            <p class="mb-2">Sophie Ring</p>
             <p class="mb-2">Ved Rungta</p>
             <p class="mb-2">Ram Vinjamuri</p>
             <p class="mb-2">Dan Wendon&ndash;Blixrud</p>
