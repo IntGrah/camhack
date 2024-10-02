@@ -14,7 +14,7 @@
             Not loading? Open the form directly <a
                 target="_blank"
                 href={FORM_URL}
-                class="text-amber-500 hover:text-amber-600">here</a
+                class="theme-hyperlink">here</a
             >.
         </p>
         <iframe
