@@ -1,5 +1,5 @@
 <script>
-    import Welcome from "$lib/components/Welcome.svelte";
+    import Hero from "$lib/components/Hero.svelte";
     import Sponsors from "$lib/components/Sponsors.svelte";
     import About from "$lib/components/About.svelte";
     import Schedule from "$lib/components/Schedule.svelte";
@@ -9,7 +9,7 @@
 </script>
 
 <div class="p-8 sm:p-12 theme-bg-gradient">
-    <Welcome />
+    <Hero />
 </div>
 
 <section id="sponsors" class="px-8 py-4 text-lg">

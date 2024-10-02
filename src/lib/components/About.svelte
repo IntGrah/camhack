@@ -14,7 +14,7 @@
         throughout the event.
     </p>
     <p class="mb-4">
-        Compete for prestigious awards and prizes totaling over $X, while making
+        Compete for prestigious awards and prizes totaling over £TODO, while making
         valuable connections and learning skills that will serve you far beyond
         the weekend. Whether you're building apps, AI, or something entirely
         new, Cam Hack is the ultimate platform to turn your vision into reality.
