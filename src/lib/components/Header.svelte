@@ -6,7 +6,7 @@
 </script>
 
 <div class="max-w-7xl mx-auto">
-    <div class="flex justify-between items-center px-4">
+    <div class="flex justify-between items-center px-4 h-[60px]">
         <a href="/" class="select-none">
             <div class="flex items-center">
                 <img

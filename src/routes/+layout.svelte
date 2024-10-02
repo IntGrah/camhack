@@ -8,9 +8,11 @@
 <header class="bg-white">
     <Header />
 </header>
+
 <main class="flex-1">
     <slot />
 </main>
-<footer class="p-4 theme-bg-gradient">
+
+<footer class="p-8 theme-bg-gradient">
     <Footer />
 </footer>

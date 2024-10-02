@@ -8,7 +8,7 @@
 
 <div class="max-w-7xl mx-auto">
     <h3 class="mb-4 text-3xl font-bold text-center">Sponsored by</h3>
-    <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center">
+    <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center text-[0]">
         <a
             class="inline-block decoration-0"
             target="_blank"

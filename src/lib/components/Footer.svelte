@@ -1,6 +1,6 @@
 <div class="max-w-7xl mx-auto">
     <div class="mb-8">
-        <h3 class="mb-4">Stuff</h3>
+        <h4 class="mb-4 text-2xl font-bold">Stuff</h4>
         Email, credits, et cetera
     </div>
 
