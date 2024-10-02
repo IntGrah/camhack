@@ -12,18 +12,6 @@
         <a
             class="inline-block decoration-0"
             target="_blank"
-            href="https://janestreet.com"
-        >
-            <span class="inline-block h-full align-middle"></span>
-            <img
-                class="inline-block align-middle h-auto w-11/12"
-                src={JaneStreet}
-                alt="Jane Street"
-            />
-        </a>
-        <a
-            class="inline-block decoration-0"
-            target="_blank"
             href="https://www.joinef.com/"
         >
             <span class="inline-block h-full align-middle"></span>
@@ -43,6 +31,18 @@
                 class="inline-block align-middle h-auto w-11/12"
                 src={HudsonRiverTrading}
                 alt="Hudson River Trading"
+            />
+        </a>
+        <a
+            class="inline-block decoration-0"
+            target="_blank"
+            href="https://janestreet.com"
+        >
+            <span class="inline-block h-full align-middle"></span>
+            <img
+                class="inline-block align-middle h-auto w-11/12"
+                src={JaneStreet}
+                alt="Jane Street"
             />
         </a>
         <a
