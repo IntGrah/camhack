@@ -17,7 +17,7 @@
         </a>
         <a
             class="inline-block px-8 py-4 decoration-0 border-2 border-orange-300 shadow-md rounded-2xl select-none transition-all text-amber-900 bg-orange-200 hover:bg-orange-100 hover:scale-105"
-            href="/"
+            href="/signup"
         >
             Sign up here!
         </a>

@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Code of Conduct &bull; Cam Hack 2024</title>
+</svelte:head>
+
 <section class="px-8 py-4 text-lg">
     <div class="max-w-7xl mx-auto">
         <h1 class="mb-8 text-4xl font-bold">Code of Conduct</h1>
