@@ -10,10 +10,10 @@
     </ul>
     <h3 class="mb-4 text-3xl font-bold">Entry rules</h3>
     <ul class="mb-4 pl-8 list-disc">
+        <li>Participants must be students at the University of Cambridge.</li>
         <li>
-            Ipsa mollitia, commodi sint vitae facere veniam adipisci autem
-            dolorum totam et nemo iure unde a sequi quis aspernatur deserunt
-            minus provident.
+            Please do not bring food into the Intel lab! All food must stay
+            downstairs in the street.
         </li>
         <li>
             Quo dolorem doloremque eligendi error deserunt dolore eius ratione
@@ -29,9 +29,10 @@
     <h3 class="mb-4 text-3xl font-bold">Submission rules</h3>
     <ul class="mb-4 pl-8 list-disc">
         <li>
-            Impedit veniam molestiae ipsum repudiandae, voluptatibus et minus
-            ipsa quasi ad! Placeat alias nobis aperiam illum ratione voluptatem
-            rem vitae libero assumenda.
+            During judging, representatives for each track will go around to
+            look at each demo. You are free to look at other projects, as long
+            as one team member is present to demonstrate to the judges their
+            project.
         </li>
         <li>
             Laborum atque quos magnam alias molestias beatae consequuntur ipsum
