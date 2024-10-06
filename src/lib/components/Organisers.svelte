@@ -2,15 +2,16 @@
     <h2 class="mb-4 text-4xl font-bold">Organising Committee</h2>
     <div class="flex max-sm:flex-col">
         <div class="flex-1">
+            <p class="mb-2">Mikel Bober&ndash;Irizar</p>
             <p class="mb-2">Jeremy Chen</p>
             <p class="mb-2">Athena Eng</p>
             <p class="mb-2">Arya Golkari</p>
             <p class="mb-2">Oliver Greenwood</p>
             <p class="mb-2">Swarnim Jain</p>
             <p class="mb-2">Eugene Kang</p>
-            <p class="mb-2">Carol Khor</p>
         </div>
         <div class="flex-1">
+            <p class="mb-2">Carol Khor</p>
             <p class="mb-2">Varun Latthe</p>
             <p class="mb-2">Dylan Moss</p>
             <p class="mb-2">Sophie Ring</p>
