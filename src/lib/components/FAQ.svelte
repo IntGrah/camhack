@@ -60,7 +60,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Can I submit to multiple tracks?</span>
-        Yes, but each product can only be submitted to one track.
+        Yes, but each project can only be submitted to one track.
     </FAQuestion>
     <FAQuestion>
         <span slot="question">You didn't answer my questions!</span>
