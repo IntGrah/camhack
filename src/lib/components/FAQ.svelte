@@ -5,15 +5,15 @@
 <div class="max-w-7xl mx-auto">
     <h2 class="mb-4 text-4xl font-bold">FAQ</h2>
     <FAQuestion>
-        <span slot="question">Can I participate online?</span>
-        No, unfortunately Cam Hack 2024 is an in-person event. We hope to see you
-        at the Computer Lab!
-    </FAQuestion>
-    <FAQuestion>
         <span slot="question">What is a hackathon?</span>
         A hackathon is an event where people collaborate to make cool stuff! It usually
         runs over a weekend and is a great way to learn new skills, meet new people,
         and have fun!
+    </FAQuestion>
+    <FAQuestion>
+        <span slot="question">Can I participate online?</span>
+        No, unfortunately Cam Hack 2024 is an in-person event. We hope to see you
+        at the Computer Lab!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Where is it?</span>
@@ -54,9 +54,9 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Will there be food?</span>
-        Yes! We will provide meals throughout the event, from Saturday breakfast
-        to Sunday dinner. Please let us know if you have any dietary requirements
-        in the sign up form. TODO
+        Yes! We will provide meals throughout the event, as well as lots of snacks!
+        Please let us know if you have any dietary requirements in the sign up form.
+        TODO
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Can I submit to multiple tracks?</span>
@@ -64,9 +64,10 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">You didn't answer my questions!</span>
-        Sorry! But you can ask us anything in our
+        You can ask us anything in our
         <a target="_blank" href="/discord" class="theme-hyperlink"
             >Discord server</a
-        >! You can also email us at TODO, or speak to us in person at the event.
+        >! You can also email us at TODO, or speak to us in person at the event,
+        where we will be happy to answer.
     </FAQuestion>
 </div>

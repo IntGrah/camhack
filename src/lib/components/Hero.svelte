@@ -22,7 +22,7 @@
         </a>
     </div>
     <p class="mb-4" style="font-size: 1.5em; font-weight: bold; clear: both;">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit!
+        Cam Hack is a 32 hour hackathon at the University of Cambridge!
     </p>
     <p>
         Eum distinctio suscipit laudantium ab tenetur officiis corporis quia
