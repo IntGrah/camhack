@@ -27,7 +27,7 @@
                 <a class="hover:text-amber-600" href="/#faq">FAQ</a>
                 <a
                     class="px-4 py-2 bg-orange-300 rounded-lg hover:scale-105"
-                    href="/signup">Sign up</a
+                    href="/signup">Sign up!</a
                 >
             </nav>
             <Hamburger bind:expanded />

@@ -5,14 +5,17 @@
             <p class="mb-2">Mikel Bober&ndash;Irizar</p>
             <p class="mb-2">Jeremy Chen</p>
             <p class="mb-2">Athena Eng</p>
+            <p class="mb-2">Adarsh Arun Ganeshbabu</p>
             <p class="mb-2">Arya Golkari</p>
+        </div>
+        <div class="flex-1">
             <p class="mb-2">Oliver Greenwood</p>
             <p class="mb-2">Swarnim Jain</p>
             <p class="mb-2">Eugene Kang</p>
-        </div>
-        <div class="flex-1">
             <p class="mb-2">Carol Khor</p>
             <p class="mb-2">Varun Latthe</p>
+        </div>
+        <div class="flex-1">
             <p class="mb-2">Dylan Moss</p>
             <p class="mb-2">Sophie Ring</p>
             <p class="mb-2">Vedaangh Rungta</p>

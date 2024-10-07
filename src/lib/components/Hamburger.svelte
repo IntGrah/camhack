@@ -1,5 +1,7 @@
-<script lang="ts">
-    export let expanded: boolean;
+<script>
+
+    /** @type {boolean} */   
+     export let expanded;
 
     function toggle() {
         expanded = !expanded;

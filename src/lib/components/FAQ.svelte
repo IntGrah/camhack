@@ -17,11 +17,10 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Where is it?</span>
-        Cam Hack 2024 will be in the Computer Laboratory, which is at the
+        Cam Hack 2024 will be in the Computer Laboratory, also known as the
         <a
             href="https://maps.app.goo.gl/185n4bsvv7AXw3FM7"
-            class="theme-hyperlink"
-            >William Gates Building, 15 JJ Thomson Avenue, CB3 0FD</a
+            class="theme-hyperlink">William Gates Building</a
         >.
     </FAQuestion>
     <FAQuestion>
