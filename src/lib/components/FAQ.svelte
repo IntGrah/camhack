@@ -17,7 +17,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">How much does it cost?</span>
-        Entry is free and includes food, drinks, and stash!
+        Entry is free and includes food, drinks, and of course, sta$h!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Where is it?</span>
@@ -46,7 +46,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Will there be food?</span>
-        Yes! We will provide meals throughout the event, as well as lots of snacks!
+        Yes! We will provide meals, as well as lots of snacks throughout the event!
         Please let us know if you have any dietary requirements in the sign up form.
     </FAQuestion>
     <FAQuestion>
