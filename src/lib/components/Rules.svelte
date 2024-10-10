@@ -1,53 +1,57 @@
 <div class="max-w-7xl mx-auto">
-    <h2 class="mb-4 text-4xl font-bold">Rules</h2>
-    <ul class="mb-4 pl-8 list-disc">
+    <h2>Rules</h2>
+    <h3>Entry rules</h3>
+    <ul class="pl-8 list-disc">
+        <li>
+            The maximum team size is 4. Any bigger, and we might have to split
+            you up. Solo participation is allowed, but hacking is better with
+            other people!
+        </li>
+        <li>
+            Participants must be students at the University of Cambridge. They
+            must not have an unfair advantage such as getting to decide the
+            theme, or being a judge.
+        </li>
+    </ul>
+    <h3>House rules</h3>
+    <ul class="pl-8 list-disc">
+        <li>
+            Please do not bring food into the Intel lab! All food must stay
+            downstairs in the street. &#127829;
+        </li>
+        <li>
+            We don't recommend it, but you can stay overnight in the lab if you
+            want. &#128564;
+        </li>
         <li>
             All participants must follow our <a
                 href="/code-of-conduct"
-                class="text-amber-600 hover:text-amber-700"
-            >
-                Code of Conduct
-            </a>, including hackathon submissions.
+                class="theme-hyperlink">Code of Conduct</a
+            >.
         </li>
     </ul>
-    <h3 class="mb-4 text-3xl font-bold">Entry rules</h3>
-    <ul class="mb-4 pl-8 list-disc">
+    <h3>Submission rules</h3>
+    <ul class="pl-8 list-disc">
         <li>
-            Ipsa mollitia, commodi sint vitae facere veniam adipisci autem
-            dolorum totam et nemo iure unde a sequi quis aspernatur deserunt
-            minus provident.
+            All work on projects must be done at the hackathon. Using existing
+            code is allowed if credited, but the project should be substantially
+            new.
+        </li>
+        <li>Code submissions may be no more than 2 GB in size.</li>
+        <li>
+            After hacking finishes, representatives for each track will go
+            around to look at each demo. You are free to look at other projects,
+            as long as one team member is present a demo of their project.
         </li>
         <li>
-            Quo dolorem doloremque eligendi error deserunt dolore eius ratione
-            ex sit quod repudiandae, cum beatae. Est, dolores quaerat? Esse
-            earum fugit veritatis?
+            If you discover a breaking bug during your demo with a trivial fix,
+            that's okay to fix. &#128027;
         </li>
         <li>
-            Fuga doloremque repudiandae maiores esse consectetur aliquam.
-            Maiores et impedit, perspiciatis fugit molestias sint earum quasi
-            saepe ut a ex voluptas dolore.
-        </li>
-    </ul>
-    <h3 class="mb-4 text-3xl font-bold">Submission rules</h3>
-    <ul class="mb-4 pl-8 list-disc">
-        <li>
-            Impedit veniam molestiae ipsum repudiandae, voluptatibus et minus
-            ipsa quasi ad! Placeat alias nobis aperiam illum ratione voluptatem
-            rem vitae libero assumenda.
-        </li>
-        <li>
-            Laborum atque quos magnam alias molestias beatae consequuntur ipsum
-            sed voluptates cupiditate? Corrupti officia labore dolor enim quam
-            esse tempora eum quod.
-        </li>
-        <li>
-            Accusamus eius, facilis quo incidunt dolorem eveniet nostrum
-            obcaecati molestias possimus ab.
-        </li>
-        <li>
-            Asperiores facilis, neque ea adipisci necessitatibus enim dicta,
-            fuga optio iusto deleniti id! Architecto ipsam sed doloribus totam
-            aliquam tempora suscipit deleniti.
+            Submissions will be made to <a
+                href="https://devpost.com"
+                class="theme-hyperlink">Devpost</a
+            >.
         </li>
     </ul>
 </div>

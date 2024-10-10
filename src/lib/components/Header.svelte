@@ -6,7 +6,7 @@
 </script>
 
 <div class="max-w-7xl mx-auto">
-    <div class="flex justify-between items-center px-4 h-[60px]">
+    <div class="flex justify-between items-center h-[60px]">
         <a href="/" class="select-none">
             <div class="flex items-center">
                 <img
@@ -17,29 +17,23 @@
                 <span class="ml-4 text-2xl font-extrabold">Cam Hack 2024</span>
             </div>
         </a>
-        <nav class="max-md:hidden flex items-center gap-6">
-            <a
-                class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="/">Home</a
+        <div class="px-4">
+            <nav
+                class="max-md:hidden flex items-center gap-6 text-xl font-semibold transition-colors"
             >
-            <a
-                class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="/#about">About</a
-            >
-            <a
-                class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="/#schedule">Schedule</a
-            >
-            <a
-                class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="/#rules">Rules</a
-            >
-            <a
-                class="text-xl font-semibold decoration-0 transition-colors text-black hover:text-orange-900"
-                href="/#faq">FAQ</a
-            >
-        </nav>
-        <Hamburger bind:expanded />
+                <a class="hover:text-amber-600" href="/#about">About</a>
+                <a class="hover:text-amber-600" href="/#schedule">Schedule</a>
+                <a class="hover:text-amber-600" href="/#rules">Rules</a>
+                <a class="hover:text-amber-600" href="/#faq">FAQ</a>
+                <a
+                    class="px-4 py-2 bg-orange-300 rounded-lg hover:scale-105"
+                    href="/signup">Sign up!</a
+                >
+            </nav>
+            <Hamburger bind:expanded />
+        </div>
     </div>
-    <MobileMenu bind:expanded />
+    {#if expanded}
+        <MobileMenu bind:expanded />
+    {/if}
 </div>

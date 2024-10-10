@@ -7,14 +7,15 @@
     <title>Sign up &bull; Cam Hack 2024</title>
 </svelte:head>
 
-<section class="p-4 sm:px-8">
+<section>
     <div class="max-w-7xl mx-auto">
-        <h1 class="mb-4 text-4xl font-bold">Sign up</h1>
-        <p class="mb-4">
+        <h2>Sign up</h2>
+        <p>The deadline for signing up is 26 October!</p>
+        <p>
             Not loading? Open the form directly <a
                 target="_blank"
                 href={FORM_URL}
-                class="text-amber-500 hover:text-amber-600">here</a
+                class="theme-hyperlink">here</a
             >.
         </p>
         <iframe

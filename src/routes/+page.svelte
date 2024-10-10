@@ -16,28 +16,28 @@
     <Hero />
 </div>
 
-<section id="sponsors" class="p-4 sm:px-8 text-lg">
+<section id="sponsors">
     <!-- Not linked in navigation -->
     <Sponsors />
 </section>
 
-<section id="about" class="p-4 sm:px-8 text-lg">
+<section id="about">
     <About />
 </section>
 
-<section id="schedule" class="p-4 sm:px-8 text-lg">
+<section id="schedule">
     <Schedule />
 </section>
 
-<section id="rules" class="p-4 sm:px-8 text-lg">
+<section id="rules">
     <Rules />
 </section>
 
-<section id="faq" class="p-4 sm:px-8 text-lg">
+<section id="faq">
     <FAQ />
 </section>
 
-<section id="organisers" class="p-4 sm:px-8 text-lg">
+<section id="organisers">
     <!-- Not linked in navigation -->
     <Organisers />
 </section>

@@ -5,7 +5,7 @@
     import Header from "$lib/components/Header.svelte";
 </script>
 
-<header class="bg-white">
+<header class="bg-white shadow-md">
     <Header />
 </header>
 

@@ -1,21 +1,21 @@
 <div class="max-w-7xl mx-auto">
-    <h2 class="mb-4 text-4xl font-bold">Organising Committee</h2>
-    <div class="flex max-sm:flex-col">
-        <div class="flex-1">
-            <p class="mb-2">Jeremy Chen</p>
-            <p class="mb-2">Athena Eng</p>
-            <p class="mb-2">Arya Golkari</p>
-            <p class="mb-2">Oliver Greenwood</p>
-            <p class="mb-2">Swarnim Jain</p>
-            <p class="mb-2">Eugene Kang</p>
-        </div>
-        <div class="flex-1">
-            <p class="mb-2">Carol Khor</p>
-            <p class="mb-2">Varun Latthe</p>
-            <p class="mb-2">Dylan Moss</p>
-            <p class="mb-2">Ved Rungta</p>
-            <p class="mb-2">Ram Vinjamuri</p>
-            <p class="mb-2">Dan Wendon&ndash;Blixrud</p>
-        </div>
-    </div>
+    <h2>Organising Committee</h2>
+    <ul class="pl-0 list-none sm:columns-2 md:columns-3 lg:columns-4">
+        <li>Mikel Bober&ndash;Irizar</li>
+        <li>Jeremy Chen</li>
+        <li>Athena Eng</li>
+        <li>Adarsh Arun Ganeshbabu</li>
+        <li>Arya Golkari</li>
+        <li>Oliver Greenwood</li>
+        <li>Swarnim Jain</li>
+        <li>Eugene Kang</li>
+        <li>Carol Khor</li>
+        <li>Varun Latthe</li>
+        <li>Dylan Moss</li>
+        <li>Sophie Ring</li>
+        <li>Vedaangh Rungta</li>
+        <li>Zeynep Takci</li>
+        <li>Ram Vinjamuri</li>
+        <li>Dan Wendon&ndash;Blixrud</li>
+    </ul>
 </div>
