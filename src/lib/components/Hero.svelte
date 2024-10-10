@@ -21,11 +21,7 @@
             Sign up here!
         </a>
     </div>
-    <h4 class="clear-both">
-        Cam Hack is a 32 hour hackathon at the University of Cambridge!
-    </h4>
-    <p>
-        Eum distinctio suscipit laudantium ab tenetur officiis corporis quia
-        veritatis numquam unde.
+    <p class="text-xl clear-both">
+        What can you make in 32 hours?
     </p>
 </div>
