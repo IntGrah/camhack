@@ -7,7 +7,7 @@
 </script>
 
 <div class="max-w-7xl mx-auto">
-    <h3 class="mb-4 text-3xl font-bold text-center">Sponsored by</h3>
+    <h2 class="text-center">Sponsored by</h2>
     <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center text-[0]">
         <a class="inline-block" target="_blank" href="https://www.joinef.com/">
             <span class="inline-block h-full align-middle"></span>

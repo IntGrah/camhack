@@ -1,7 +1,7 @@
 <div class="max-w-7xl mx-auto">
-    <h2 class="mb-4 text-4xl font-bold">About</h2>
-    <p class="mb-4">
-        Cam Hack is an exciting, student-led hackathon exclusively for the
+    <h2>About</h2>
+    <p>
+        Cam Hack is an exciting, hackathon exclusively for the
         innovative minds at the University of Cambridge. Over an action-packed
         weekend, students from diverse disciplines will come together to design,
         build, and launch groundbreaking technology projects from the ground up.
@@ -13,7 +13,7 @@
         fun—expect plenty of free merch, great food, and a lively atmosphere
         throughout the event.
     </p>
-    <p class="mb-4">
+    <p>
         Compete for prestigious awards and prizes totaling over £TODO, while making
         valuable connections and learning skills that will serve you far beyond
         the weekend. Whether you're building apps, AI, or something entirely
