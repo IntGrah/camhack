@@ -9,8 +9,8 @@
         </li>
         <li>
             Participants must be students at the University of Cambridge. They
-            must not have had an advantage such as getting to decide the theme,
-            or being a judge.
+            must not have an unfair advantage such as getting to decide the
+            theme, or being a judge.
         </li>
     </ul>
     <h3>House rules</h3>
