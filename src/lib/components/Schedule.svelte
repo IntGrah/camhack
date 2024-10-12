@@ -36,10 +36,6 @@
             <h4>Saturday 2 November</h4>
             <ul>
                 <li>
-                    <strong>09:00&ndash;10:00</strong>
-                    <em>Breakfast</em>
-                </li>
-                <li>
                     <strong>13:00&ndash;15:00</strong>
                     <em>Lunch</em>
                 </li>
