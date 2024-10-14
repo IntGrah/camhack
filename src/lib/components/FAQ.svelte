@@ -17,7 +17,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">How much does it cost?</span>
-        Entry is free and includes food, drinks, and of course, sta$h!
+        Entry is free and includes food, drinks, and of course, stash!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Where is it?</span>
