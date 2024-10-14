@@ -41,7 +41,7 @@
         <li>
             After hacking finishes, representatives for each track will go
             around to look at each demo. You are free to look at other projects,
-            as long as one team member is present a demo of their project.
+            as long as one team member is available to present a demo of their project.
         </li>
         <li>
             If you discover a breaking bug during your demo with a trivial fix,
