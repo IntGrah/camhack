@@ -48,8 +48,8 @@
         </ul>
         <p>
             To exercise these rights, contact us at <a
-                href="mailto:dop@camhack.org"
-                class="theme-hyperlink">dop@camhack.org</a
+                href="mailto:dpo@camhack.org"
+                class="theme-hyperlink">dpo@camhack.org</a
             >
         </p>
     </div>

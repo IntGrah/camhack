@@ -1,6 +1,6 @@
 <div class="max-w-7xl mx-auto">
     <h2>Rules</h2>
-    <h3>Entry rules</h3>
+    <h3>Entry</h3>
     <ul class="pl-8 list-disc">
         <li>
             The maximum team size is 4. Any bigger, and we might have to split
@@ -30,7 +30,7 @@
             >.
         </li>
     </ul>
-    <h3>Submission rules</h3>
+    <h3>Submission</h3>
     <ul class="pl-8 list-disc">
         <li>
             All work on projects must be done at the hackathon. Using existing
