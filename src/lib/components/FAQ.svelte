@@ -5,15 +5,15 @@
 <div class="max-w-7xl mx-auto">
     <h2>FAQ</h2>
     <FAQuestion>
-        <span slot="question">What is a hackathon?</span>
+        <span slot="question"> What is a hackathon?</span>
         A hackathon is an event where people collaborate to create new projects!
         It usually runs over a weekend and is a great way to learn new skills, meet
         new people, and have fun!
     </FAQuestion>
     <FAQuestion>
-        <span slot="question">Can I participate online?</span>
-        No, unfortunately Cam Hack 2024 is an in-person event. We hope to see you
-        at the Computer Lab!
+        <span slot="question">Can I participate remotely?</span>
+        While online participation is allowed, it's okay to leave the venue for some
+        time to hack elsewhere. We hope to see you at the Computer Lab!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">How much does it cost?</span>
@@ -51,14 +51,17 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Can I submit to multiple tracks?</span>
-        Yes, but each project can only be submitted to one track.
+        Yes, projects can be submitted to multiple tracks.
     </FAQuestion>
     <FAQuestion>
         <span slot="question">You didn't answer my questions!</span>
         You can ask us anything in our
         <a target="_blank" href="/discord" class="theme-hyperlink"
             >Discord server</a
-        >! You can also email us at <a href="mailto:help@camhack.org" class="theme-hyperlink">help@camhack.org</a>, or speak to us in person at the event,
-        where we will be happy to answer.
+        >! You can also email us at
+        <a href="mailto:help@camhack.org" class="theme-hyperlink"
+            >help@camhack.org</a
+        >, or speak to us in person at the event, where we will be happy to
+        answer.
     </FAQuestion>
 </div>

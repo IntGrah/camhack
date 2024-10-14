@@ -7,7 +7,7 @@
         <h2>Terms of Service</h2>
         <p>
             <em>
-                Last Updated: <time datetime="2024-10-10">10 October 2024</time>
+                Last Updated: <time datetime="2024-10-14">14 October 2024</time>
             </em>
         </p>
         <h3>1. Acceptance of Terms</h3>
@@ -35,7 +35,7 @@
         <h3>4. Intellectual property</h3>
         <p>
             You retain ownership to your submission and may use it as you wish,
-            including licensing or commercializing it after the Event.
+            including licensing or commercializing it after the hackathon.
         </p>
         <h3>5. Limitation of liability</h3>
         <p>
