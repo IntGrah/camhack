@@ -8,6 +8,6 @@
         </p>
     </div>
     <div>
-        <p class="text-center">ⓒ Cam Hack 2024. All rights reserved.</p>
+        <p class="text-center">&copy; Cam Hack 2024. All rights reserved.</p>
     </div>
 </div>
