@@ -7,7 +7,7 @@
         <h2>Privacy Policy</h2>
         <p>
             <em>
-                Last Updated: <time datetime="2024-10-14">14 October 2024</time>
+                Last Updated: <time datetime="2024-10-15">15 October 2024</time>
             </em>
         </p>
         <p>
