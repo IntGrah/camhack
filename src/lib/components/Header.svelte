@@ -28,7 +28,7 @@
                 <a class="hover:text-emerald-600" href="/#rules">Rules</a>
                 <a class="hover:text-emerald-600" href="/#faq">FAQ</a>
                 <a
-                    class="px-4 py-2 bg-emerald-300 rounded-lg hover:scale-105"
+                    class="px-4 py-2 bg-emerald-300 rounded-lg transition-transform hover:scale-105"
                     href="/signup">Sign up!</a
                 >
             </nav>

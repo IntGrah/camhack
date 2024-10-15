@@ -26,7 +26,7 @@
             <li>Dietary requirements</li>
         </ul>
         <p>
-            We may also take photographs of participants during the event, but
+            We may also take photographs of consenting participants during the event, but
             we will accommodate for those who opt out of this.
         </p>
         <h3>2. How we use your information</h3>
