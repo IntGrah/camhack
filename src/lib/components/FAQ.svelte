@@ -12,7 +12,7 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Can I participate remotely?</span>
-        While online participation is allowed, it's okay to leave the venue for some
+        While online participation is not allowed, it's okay to leave the venue for some
         time to hack elsewhere. We hope to see you at the Computer Lab!
     </FAQuestion>
     <FAQuestion>
