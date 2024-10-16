@@ -12,7 +12,7 @@
     <title>Cam Hack 2024</title>
 </svelte:head>
 
-<section class="p-4 sm:p-8 theme-bg-gradient">
+<section class="sm:p-8 theme-bg-gradient">
     <Hero />
 </section>
 
