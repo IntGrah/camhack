@@ -8,11 +8,11 @@
                     <strong>10:00</strong> Opening ceremony
                 </li>
                 <li>
-                    <strong>13:00&ndash;15:00</strong>
-                    <em>Lunch</em>
+                    <strong>10:45</strong> Hacking begins!
                 </li>
                 <li>
-                    <strong>10:45</strong> Hacking begins!
+                    <strong>13:00&ndash;15:00</strong>
+                    <em>Lunch</em>
                 </li>
                 <li>
                     <strong>19:00&ndash;20:00</strong>
