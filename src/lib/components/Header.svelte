@@ -2,7 +2,7 @@
     import Hamburger from "$lib/components/Hamburger.svelte";
     import MobileMenu from "$lib/components/MobileMenu.svelte";
 
-    import HeaderLogo from "$lib/assets/logo3-top.png";
+    import HeaderLogo from "$lib/assets/cam-hack-logo-text.png";
 
     export let expanded = false;
 </script>
@@ -16,7 +16,7 @@
                     src={HeaderLogo}
                     alt="Cam Hack Logo"
                 />
-                <!-- <span class="ml-4 text-2xl font-extrabold">Cam Hack 2024</span> -->
+                <span class="ml-4 text-xl font-bold">Cam Hack 2024</span>
             </div>
         </a>
         <div class="px-4">

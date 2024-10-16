@@ -1,5 +1,5 @@
 <script>
-    import HeroLogo from "$lib/assets/logo3-circle.png";
+    import HeroLogo from "$lib/assets/cam-hack-logo-text.png";
 </script>
 
 <div class="max-w-7xl mx-auto max-sm:text-center">
