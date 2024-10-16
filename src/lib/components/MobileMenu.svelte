@@ -21,7 +21,7 @@
         <a on:click={closeMenu} href="/#schedule">Schedule</a>
         <a on:click={closeMenu} href="/#rules">Rules</a>
         <a on:click={closeMenu} href="/#faq">FAQ</a>
-        <a on:click={closeMenu} href="/signup">Sign up</a>
+        <a on:click={closeMenu} href="/signup" target="_blank">Sign up!</a>
     </menu>
 </div>
 

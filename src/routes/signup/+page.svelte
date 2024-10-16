@@ -1,6 +1,6 @@
 <script>
     const FORM_URL =
-        "https://docs.google.com/forms/d/e/1FAIpQLSePr4LUwzEhwY-D-ASlCcBHkJ2HjnIIwZ-RkO8SwND8ZpBlvQ/viewform";
+        "https://docs.google.com/forms/d/e/1FAIpQLScyyLCcd9LJAo_x2Ly0jvNgAI6-dqp3AmKYoFbca5mxLVvtCQ/viewform";
 </script>
 
 <svelte:head>

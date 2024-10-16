@@ -12,15 +12,16 @@
     <h3 class="sm:text-3xl">2nd&nbsp;&ndash;&nbsp;3rd&nbsp;November</h3>
     <div class="mb-4 flex flex-wrap max-sm:justify-center gap-4">
         <a
-            class="px-6 py-4 rounded-2xl select-none transition-all text-green-900 bg-emerald-100/80 hover:bg-emerald-100 hover:scale-105"
             target="_blank"
             href="/discord"
+            class="px-6 py-4 rounded-2xl select-none transition-all text-green-900 bg-emerald-100/80 hover:bg-emerald-100 hover:scale-105"
         >
             Join the Discord!
         </a>
         <a
-            class="px-6 py-4 rounded-2xl select-none transition-all text-green-900 bg-emerald-100/80 hover:bg-emerald-100 hover:scale-105"
+            target="_blank"
             href="/signup"
+            class="px-6 py-4 rounded-2xl select-none transition-all text-green-900 bg-emerald-100/80 hover:bg-emerald-100 hover:scale-105"
         >
             Sign up here!
         </a>
