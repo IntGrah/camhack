@@ -9,8 +9,8 @@
 </script>
 
 <div class="max-w-7xl mx-auto">
-    <h2 class="text-center">Sponsored by</h2>
-    <grid class="grid grid-cols-4 max-sm:grid-cols-2 text-center">
+    <h3 class="text-center sm:text-3xl">Sponsored by</h3>
+    <grid class="mb-8 grid grid-cols-4 max-sm:grid-cols-2 text-center">
         <a class="inline-block" target="_blank" href="https://www.joinef.com">
             <span class="inline-block h-full align-middle"></span>
             <img
@@ -48,31 +48,28 @@
             />
         </a>
     </grid>
-    <h2 class="text-center">Run by</h2>
-    <div class="flex text-center">
-        <a
-            class="flex-1 inline-block"
-            target="_blank"
-            href="https://cucats.org"
-        >
-            <span class="inline-block h-full align-middle"></span>
-            <img
-                class="inline-block align-middle h-auto w-2/5 sm:w-1/4"
-                src={CUCaTS}
-                alt="Cambridge University Computing and Technology Society First"
-            />
-        </a>
-        <a
-            class="flex-1 inline-block"
-            target="_blank"
-            href="https://www.cuai.org.uk"
-        >
-            <span class="inline-block h-full align-middle"></span>
-            <img
-                class="inline-block align-middle h-auto w-3/5 sm:w-2/5"
-                src={CUAI}
-                alt="Cambridge University AI Society"
-            />
-        </a>
+    <div class="mb-4 flex max-sm:flex-col text-center">
+        <div class="mb-8 flex-1 inline-block">
+            <h3 class="mb-2 sm:text-3xl">Run by</h3>
+            <a target="_blank" href="https://cucats.org">
+                <span class="inline-block h-full align-middle"></span>
+                <img
+                    class="inline-block align-middle h-auto w-1/4"
+                    src={CUCaTS}
+                    alt="Cambridge University Computing and Technology Society First"
+                />
+            </a>
+        </div>
+        <div class="mb-8 flex-1 inline-block">
+            <h3 class="mb-2 sm:text-3xl">Collaborating with</h3>
+            <a target="_blank" href="https://www.cuai.org.uk">
+                <span class="inline-block h-full align-middle"></span>
+                <img
+                    class="inline-block align-middle h-auto w-2/5"
+                    src={CUAI}
+                    alt="Cambridge University AI Society"
+                />
+            </a>
+        </div>
     </div>
 </div>
