@@ -9,11 +9,7 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: "Playpen Sans", cursive, sans-serif;
-    color: #333333;
+    @apply flex flex-col min-h-screen font-playpen text-slate-800;
 }
 
 .theme-bg-gradient {

@@ -6,14 +6,12 @@
         <li>Adarsh Arun Ganeshbabu</li>
         <li>Arya Golkari</li>
         <li>Oliver Greenwood</li>
-        <li>Swarnim Jain</li>
+        <li>Thomas Griffiths</li>
         <li>Eugene Kang</li>
         <li>Carol Khor</li>
         <li>Varun Latthe</li>
         <li>Dylan Moss</li>
-        <li>Sophie Ring</li>
         <li>Vedaangh Rungta</li>
         <li>Zeynep Takci</li>
-        <li>Ram Vinjamuri</li>
     </ul>
 </div>
