@@ -22,7 +22,7 @@ body {
 }
 
 .theme-hyperlink {
-    @apply text-emerald-600 hover:text-emerald-700 underline
+    @apply text-emerald-600 hover:text-emerald-700
 }
 
 section {
