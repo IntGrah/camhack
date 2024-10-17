@@ -37,7 +37,7 @@
     <FAQuestion>
         <span slot="question">How do I sign up?</span>
         Fill out the
-        <a target="_blank" href="/signup" class="theme-hyperlink"> sign up form </a> by 26 October!
+        <a target="_blank" href="/signup" class="theme-hyperlink">sign up form</a> by 23:59 24th October!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">I've never hacked before!</span>

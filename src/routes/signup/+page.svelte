@@ -10,7 +10,7 @@
 <section>
     <div class="max-w-7xl mx-auto">
         <h2>Sign up</h2>
-        <p>The deadline for signing up is 26 October!</p>
+        <p>The deadline for signing up is 23:59 24th October!</p>
         <p>
             Not loading? Open the form directly <a
                 target="_blank"
