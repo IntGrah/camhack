@@ -11,9 +11,19 @@
         new people, and have fun!
     </FAQuestion>
     <FAQuestion>
+        <span slot="question">What are the hackathon tracks?</span>
+        The hackathon will revolve around a main theme that will be revealed on the
+        day, which we call the "main track". All participants will hack on a project
+        based around this theme. There will be "secondary tracks" which extend the
+        main theme in their own unique way. Participants can also choose to opt into
+        one or more secondary tracks with the same project they are hacking for the
+        main track. Participants who do this will be eligible for the main track
+        prizes, and all prizes from the secondary tracks that they opt into.
+    </FAQuestion>
+    <FAQuestion>
         <span slot="question">Can I participate remotely?</span>
-        While online participation is not allowed, it's okay to leave the venue for some
-        time to hack elsewhere. We hope to see you at the Computer Lab!
+        While online participation is not allowed, it's okay to leave the venue for
+        some time to hack elsewhere. We hope to see you at the Computer Lab!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">How much does it cost?</span>
@@ -37,7 +47,9 @@
     <FAQuestion>
         <span slot="question">How do I sign up?</span>
         Fill out the
-        <a target="_blank" href="/signup" class="theme-hyperlink">sign up form</a> by 23:59 24th October!
+        <a target="_blank" href="/signup" class="theme-hyperlink"
+            >sign up form</a
+        > by 23:59 24th October!
     </FAQuestion>
     <FAQuestion>
         <span slot="question">I've never hacked before!</span>
