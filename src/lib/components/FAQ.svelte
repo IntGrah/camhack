@@ -12,13 +12,11 @@
     </FAQuestion>
     <FAQuestion>
         <span slot="question">What are the hackathon tracks?</span>
-        The hackathon will revolve around a main theme that will be revealed on the
-        day, which we call the "main track". All participants will hack on a project
-        based around this theme. There will be "secondary tracks" which extend the
-        main theme in their own unique way. Participants can also choose to opt into
-        one or more secondary tracks with the same project they are hacking for the
-        main track. Participants who do this will be eligible for the main track
-        prizes, and all prizes from the secondary tracks that they opt into.
+        All projects submit to a main track, which aligns with the overall theme
+        of the event (to be revealed on the day). Participants can optionally submit
+        the same project to one or more secondary tracks, whose themes extend the
+        main theme in some way. Participants who opt into secondary tracks are eligible
+        for both the main track and secondary track prizes.
     </FAQuestion>
     <FAQuestion>
         <span slot="question">Can I participate remotely?</span>
