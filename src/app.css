@@ -15,7 +15,7 @@ body {
     background-image: linear-gradient(120deg, #86e293 0%, #86e6c6 100%);
 }
 
-.theme-hyperlink {
+a.theme-hyperlink {
     @apply text-emerald-600 hover:text-emerald-700
 }
 

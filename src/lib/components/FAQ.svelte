@@ -64,6 +64,10 @@
         Yes, projects can be submitted to multiple tracks.
     </FAQuestion>
     <FAQuestion>
+        <span slot="question">What can I win?</span>
+        We have over £1000 worth of prizes to be won, including four Nintendo switches!
+    </FAQuestion>
+    <FAQuestion>
         <span slot="question">You didn't answer my questions!</span>
         You can ask us anything in our
         <a target="_blank" href="/discord" class="theme-hyperlink"
