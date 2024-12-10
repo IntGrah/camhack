@@ -12,7 +12,11 @@
                 </li>
                 <li>
                     <strong>13:00&ndash;15:00</strong>
-                    <em>Lunch</em>
+                    <em>Lunch</em> + Sponsor merch + Registration
+                </li>
+                <li>
+                    <strong>17:00&ndash;19:00</strong>
+                    Game night
                 </li>
                 <li>
                     <strong>19:00&ndash;20:00</strong>
@@ -29,7 +33,7 @@
                 </li>
                 <li>
                     <strong>13:00&ndash;15:00</strong>
-                    <em>Lunch</em>
+                    <em>Lunch</em> + Sponsor merch
                 </li>
                 <li>
                     <strong>18:00</strong> Hacking ends!
@@ -52,7 +56,7 @@
     </div>
 </div>
 
-<style>
+<style lang="postcss">
     strong::after {
         @apply font-normal;
         content: " •";

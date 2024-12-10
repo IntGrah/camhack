@@ -1,8 +1,9 @@
-<script lang="ts">
+<script>
     import { navigating } from "$app/stores";
     import { slide } from "svelte/transition";
 
-    export let expanded: boolean;
+    /** @type {boolean} */
+    export let expanded;
 
     function closeMenu() {
         expanded = false;

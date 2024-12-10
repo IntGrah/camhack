@@ -1,10 +1,6 @@
-<script>
-    import HeroLogo from "$lib/assets/cam-hack-logo-text.png";
-</script>
-
 <div class="max-w-7xl mx-auto max-sm:text-center">
     <img
-        src={HeroLogo}
+        src="/cam-hack-logo-text.png"
         alt="Cam Hack Logo"
         class="mx-auto max-md:mb-4 sm:mr-8 size-60 sm:size-72 sm:float-left md:size-80"
     />

@@ -16,9 +16,22 @@
     <Hero />
 </section>
 
-<section id="sponsors">
-    <!-- Not linked in navigation -->
+<section>
     <Sponsors />
+</section>
+
+<section class="px-0 md:p-4 mb-8">
+    <div class="max-w-7xl mx-auto">
+        <img class="w-full md:rounded-3xl" src="/cam-hack-theme.png" alt="Turning Sci-fi into reality">
+    </div>
+</section>
+
+<section>
+    <div class="max-w-7xl mx-auto">
+        <a target="_blank" href="https://cam-hack-2024.devpost.com/project-gallery" class="text-violet-700 hover:text-violet-800 text-center">
+            <h2>See the projects!</h2>
+        </a>
+    </div>
 </section>
 
 <section id="about">
@@ -37,8 +50,7 @@
     <FAQ />
 </section>
 
-<section id="organisers">
-    <!-- Not linked in navigation -->
+<section>
     <Organisers />
 </section>
 

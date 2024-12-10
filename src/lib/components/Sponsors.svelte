@@ -1,13 +1,3 @@
-<script>
-    // import CUCaTS from "$lib/assets/cucats-logo-gradient-full.png";
-    import EntrepreneurFirst from "$lib/assets/entrepreneur-first-logo.png";
-    import HudsonRiverTrading from "$lib/assets/hudson-river-trading-logo.png";
-    import JaneStreet from "$lib/assets/jane-street-logo.png";
-    import QubeRT from "$lib/assets/qube-rt-logo.png";
-    import CUCaTS from "$lib/assets/cucats-logo-gradient-full.png";
-    import CUAI from "$lib/assets/cuai-text-logo.png";
-</script>
-
 <div class="max-w-7xl mx-auto">
     <h3 class="text-center sm:text-3xl">Sponsored by</h3>
     <grid class="mb-10 sm:mb-12 grid grid-cols-4 max-sm:grid-cols-2 text-center">
@@ -15,7 +5,7 @@
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-2/5"
-                src={EntrepreneurFirst}
+                src="/entrepreneur-first-logo.png"
                 alt="Entrepreneur First"
             />
         </a>
@@ -27,7 +17,7 @@
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-11/12"
-                src={HudsonRiverTrading}
+                src="/hudson-river-trading-logo.png"
                 alt="Hudson River Trading"
             />
         </a>
@@ -35,7 +25,7 @@
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-11/12"
-                src={JaneStreet}
+                src="/jane-street-logo.png"
                 alt="Jane Street"
             />
         </a>
@@ -43,7 +33,7 @@
             <span class="inline-block h-full align-middle"></span>
             <img
                 class="inline-block align-middle h-auto w-3/5"
-                src={QubeRT}
+                src="/qube-rt-logo.png"
                 alt="Qube RT"
             />
         </a>
@@ -55,7 +45,7 @@
                 <span class="inline-block h-full align-middle"></span>
                 <img
                     class="inline-block align-middle h-auto w-1/4"
-                    src={CUCaTS}
+                    src="/cucats-logo-gradient-full.png"
                     alt="Cambridge University Computing and Technology Society First"
                 />
             </a>
@@ -66,7 +56,7 @@
                 <span class="inline-block h-full align-middle"></span>
                 <img
                     class="inline-block align-middle h-auto w-2/5"
-                    src={CUAI}
+                    src="/cuai-text-logo.png"
                     alt="Cambridge University AI Society"
                 />
             </a>

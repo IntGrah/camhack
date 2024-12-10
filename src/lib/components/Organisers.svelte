@@ -7,6 +7,7 @@
         <li>Arya Golkari</li>
         <li>Oliver Greenwood</li>
         <li>Thomas Griffiths</li>
+        <li>Swarnim Jain</li>
         <li>Eugene Kang</li>
         <li>Carol Khor</li>
         <li>Varun Latthe</li>

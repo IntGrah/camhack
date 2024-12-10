@@ -13,7 +13,7 @@
     <div class="bar" class:expanded-bar-3={expanded}></div>
 </button>
 
-<style>
+<style lang="postcss">
     .bar {
         @apply my-1 w-7 h-1 bg-slate-700 rounded-full transition-all;
     }
